@@ -1,10 +1,12 @@
 import Image from "next/image";
 import WrapperSection from "./components/wraper-section";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
     <>
       <div className="h-[500vh] w-full overflow-hidden">
+        <Navbar />
         <WrapperSection>
           {/* Absolute elements */}
           <div className="bg-[#83A7B3] absolute -top-[25rem] left-1/2 -translate-x-1/2 w-[40rem] aspect-square rounded-full blur-[15rem] -z-10" />
