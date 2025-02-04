@@ -32,7 +32,6 @@ import Link from "next/link";
 import {
   GET_DEFAULT_REVEAL_VARIANTS,
   GET_REVEAL_VARIANTS,
-  GET_SCALE_REVEAL_VARIANTS,
 } from "./lib/animation-variants";
 
 export default function Home() {
@@ -178,7 +177,7 @@ export default function Home() {
                 variants={GET_DEFAULT_REVEAL_VARIANTS(0.15)}
                 initial="hidden"
                 whileInView="visible"
-                // viewport={{ once: true }}
+                viewport={{ once: true }}
                 className="aspect-square rounded-xl shadow-md overflow-hidden relative"
               >
                 <Image
@@ -194,7 +193,7 @@ export default function Home() {
                   variants={GET_REVEAL_VARIANTS(0.2)}
                   initial="hidden"
                   whileInView="visible"
-                  // viewport={{ once: true }}
+                  viewport={{ once: true }}
                   className="absolute bg-main-color inset-0"
                 />
               </motion.div>
@@ -205,7 +204,7 @@ export default function Home() {
                 variants={GET_DEFAULT_REVEAL_VARIANTS(0.2)}
                 initial="hidden"
                 whileInView="visible"
-                // viewport={{ once: true }}
+                viewport={{ once: true }}
                 className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-[12px] relative"
               >
                 About Me
@@ -213,7 +212,7 @@ export default function Home() {
                   variants={GET_REVEAL_VARIANTS(0.4)}
                   initial="hidden"
                   whileInView="visible"
-                  // viewport={{ once: true }}
+                  viewport={{ once: true }}
                   className="absolute bg-main-color inset-0  lg:-top-6 lg:-bottom-6"
                 />
               </motion.h1>
@@ -223,7 +222,7 @@ export default function Home() {
                     variants={GET_DEFAULT_REVEAL_VARIANTS(index * 0.3)}
                     initial="hidden"
                     whileInView="visible"
-                    // viewport={{ once: true }}
+                    viewport={{ once: true }}
                     className="text-base md:text-xl relative"
                     key={index}
                   >
@@ -232,7 +231,7 @@ export default function Home() {
                       variants={GET_REVEAL_VARIANTS(index * 0.65)}
                       initial="hidden"
                       whileInView="visible"
-                      // viewport={{ once: true }}
+                      viewport={{ once: true }}
                       className="absolute bg-main-color inset-0"
                     />
                   </motion.p>
@@ -253,7 +252,7 @@ export default function Home() {
                 variants={GET_DEFAULT_REVEAL_VARIANTS()}
                 initial="hidden"
                 whileInView="visible"
-                // viewport={{ once: true }}
+                viewport={{ once: true }}
                 className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-[12px] relative"
               >
                 My Expertise
@@ -261,7 +260,7 @@ export default function Home() {
                   variants={GET_REVEAL_VARIANTS()}
                   initial="hidden"
                   whileInView="visible"
-                  // viewport={{ once: true }}
+                  viewport={{ once: true }}
                   className="absolute bg-main-color inset-0 lg:-bottom-6 lg:-top-6"
                 />
               </motion.h1>
@@ -269,7 +268,7 @@ export default function Home() {
                 variants={GET_DEFAULT_REVEAL_VARIANTS(0.4)}
                 initial="hidden"
                 whileInView="visible"
-                // viewport={{ once: true }}
+                viewport={{ once: true }}
                 className="text-base md:text-xl relative"
               >
                 {EXPERTISE_TITLE}
@@ -277,7 +276,7 @@ export default function Home() {
                   variants={GET_REVEAL_VARIANTS(0.45)}
                   initial="hidden"
                   whileInView="visible"
-                  // viewport={{ once: true }}
+                  viewport={{ once: true }}
                   className="absolute bg-main-color inset-0"
                 />
               </motion.p>
@@ -285,7 +284,7 @@ export default function Home() {
                 variants={GET_DEFAULT_REVEAL_VARIANTS(0.4)}
                 initial="hidden"
                 whileInView="visible"
-                // viewport={{ once: true }}
+                viewport={{ once: true }}
                 className="text-base md:text-xl relative"
               >
                 {EXPERTISE_DESC}
@@ -293,7 +292,7 @@ export default function Home() {
                   variants={GET_REVEAL_VARIANTS(0.65)}
                   initial="hidden"
                   whileInView="visible"
-                  // viewport={{ once: true }}
+                  viewport={{ once: true }}
                   className="absolute bg-main-color inset-0"
                 />
               </motion.p>
@@ -309,7 +308,7 @@ export default function Home() {
                       )}
                       initial="hidden"
                       whileInView="visible"
-                      // viewport={{ once: true }}
+                      viewport={{ once: true }}
                       className="bg-main-color flex flex-col gap-1 p-3 lg:p-6 rounded-md text-base md:text-xl"
                       key={index}
                       style={{
@@ -326,7 +325,7 @@ export default function Home() {
                           variants={GET_REVEAL_VARIANTS((index + 0.35) * 0.2)}
                           initial="hidden"
                           whileInView="visible"
-                          // viewport={{ once: true }}
+                          viewport={{ once: true }}
                           className="absolute bg-secondary-color-500 inset-0"
                         />
                       </h3>
@@ -336,7 +335,7 @@ export default function Home() {
                           variants={GET_REVEAL_VARIANTS((index + 0.35) * 0.3)}
                           initial="hidden"
                           whileInView="visible"
-                          // viewport={{ once: true }}
+                          viewport={{ once: true }}
                           className="absolute bg-secondary-color-500 inset-0"
                         />
                       </p>
@@ -355,7 +354,7 @@ export default function Home() {
                 variants={GET_DEFAULT_REVEAL_VARIANTS()}
                 initial="hidden"
                 whileInView="visible"
-                // viewport={{ once: true }}
+                viewport={{ once: true }}
                 className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-[12px] relative"
               >
                 My Projects
@@ -363,7 +362,7 @@ export default function Home() {
                   variants={GET_REVEAL_VARIANTS()}
                   initial="hidden"
                   whileInView="visible"
-                  // viewport={{ once: true }}
+                  viewport={{ once: true }}
                   className="absolute bg-main-color inset-0 lg:-top-6 lg:-bottom-6"
                 />
               </motion.h1>
@@ -371,7 +370,7 @@ export default function Home() {
                 variants={GET_DEFAULT_REVEAL_VARIANTS(0.4)}
                 initial="hidden"
                 whileInView="visible"
-                // viewport={{ once: true }}
+                viewport={{ once: true }}
                 className="text-base md:text-xl relative"
               >
                 {PROJECTS_DESC}
@@ -379,7 +378,7 @@ export default function Home() {
                   variants={GET_REVEAL_VARIANTS(0.6)}
                   initial="hidden"
                   whileInView="visible"
-                  // viewport={{ once: true }}
+                  viewport={{ once: true }}
                   className="absolute bg-main-color inset-0"
                 />
               </motion.p>
@@ -406,7 +405,7 @@ export default function Home() {
                 variants={GET_DEFAULT_REVEAL_VARIANTS()}
                 initial="hidden"
                 whileInView="visible"
-                // viewport={{ once: true }}
+                viewport={{ once: true }}
                 className="col-span-1 md:col-span-2 lg:col-span-3 text-3xl mb-2 md:mb-4 md:text-5xl font-bold tracking-wide text-[#6D96B6] relative"
               >
                 {CONTACT_TITLE}
@@ -414,7 +413,7 @@ export default function Home() {
                   variants={GET_REVEAL_VARIANTS()}
                   initial="hidden"
                   whileInView="visible"
-                  // viewport={{ once: true }}
+                  viewport={{ once: true }}
                   className="absolute bg-secondary-color-500 inset-0 lg:-top-6 lg:-bottom-6"
                 />
               </motion.h1>
@@ -423,7 +422,7 @@ export default function Home() {
                   variants={GET_DEFAULT_REVEAL_VARIANTS(0.4)}
                   initial="hidden"
                   whileInView="visible"
-                  // viewport={{ once: true }}
+                  viewport={{ once: true }}
                   className="text-base md:text-xl relative"
                 >
                   {CONTACT_DESC}
@@ -431,7 +430,7 @@ export default function Home() {
                     variants={GET_REVEAL_VARIANTS(0.6)}
                     initial="hidden"
                     whileInView="visible"
-                    // viewport={{ once: true }}
+                    viewport={{ once: true }}
                     className="absolute bg-secondary-color-500 inset-0"
                   />
                 </motion.p>
@@ -448,7 +447,7 @@ export default function Home() {
                     variants={GET_DEFAULT_REVEAL_VARIANTS(0.6)}
                     initial="hidden"
                     whileInView="visible"
-                    // viewport={{ once: true }}
+                    viewport={{ once: true }}
                     className="text-base md:text-lg relative"
                   >
                     {FORM_DESC}
@@ -456,7 +455,7 @@ export default function Home() {
                       variants={GET_REVEAL_VARIANTS(0.8)}
                       initial="hidden"
                       whileInView="visible"
-                      // viewport={{ once: true }}
+                      viewport={{ once: true }}
                       className="absolute bg-secondary-color-500 inset-0"
                     />
                   </motion.h5>
