@@ -1,5 +1,12 @@
+"use client";
+
 import Image from "next/image";
 import React, { FC } from "react";
+import { motion } from "framer-motion";
+import {
+  GET_DEFAULT_REVEAL_VARIANTS,
+  GET_REVEAL_VARIANTS,
+} from "../lib/animation-variants";
 
 interface Project {
   title: string;
@@ -11,12 +18,19 @@ interface Project {
 
 interface ProjectCardProps {
   project: Project;
+  index: number;
 }
 
-const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
+const ProjectCard: FC<ProjectCardProps> = ({ project, index }) => {
   const { title, description, techStack, image } = project;
   return (
-    <div className="relative cursor-pointer group overflow-hidden">
+    <motion.div
+      variants={GET_DEFAULT_REVEAL_VARIANTS((index + 0.35) * 0.2)}
+      initial="hidden"
+      whileInView="visible"
+      // viewport={{ once: true }}
+      className="relative cursor-pointer group overflow-hidden"
+    >
       <Image
         className="aspect-[4/3] object-cover mx-auto group-hover:scale-105 transition-all"
         src={image}
@@ -32,7 +46,14 @@ const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
         </p>
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-black/15 bg-opacity-30 group-hover:bg-black/50 transition-all" />
-    </div>
+      <motion.span
+        variants={GET_REVEAL_VARIANTS((index + 1) * 0.2)}
+        initial="hidden"
+        whileInView="visible"
+        // viewport={{ once: true }}
+        className="absolute inset-0 bg-main-color z-50"
+      />
+    </motion.div>
   );
 };
 
