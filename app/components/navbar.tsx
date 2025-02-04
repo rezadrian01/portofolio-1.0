@@ -1,5 +1,4 @@
 import { NAVBAR_LINKS } from "@/data/navbar";
-import Link from "next/link";
 import React from "react";
 import NavbarLink from "./navbar-link";
 
