@@ -9,7 +9,7 @@ interface NavbarLinkProps {
 
 const NavbarLink: FC<NavbarLinkProps> = ({ href, content, icon }) => {
   return (
-    <li className="">
+    <li className="hover:scale-110 transition-all">
       <Link href={href}>
         <span className="hidden md:block">{content}</span>
         <span className="block md:hidden">{icon}</span>
