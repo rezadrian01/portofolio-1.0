@@ -4,17 +4,30 @@ import { SUBTITLE, TITLE as TITLE_HOME_SECTION } from "@/data/home-section";
 import WrapperSection from "./components/wrapper-section";
 import { CONTENTS } from "@/data/about-section";
 import {
-  DESC as DESC_EXPERTISE,
+  DESC as EXPERTISE_DESC,
   EXPERTISES,
-  TITLE as TITLE_EXPERTISE,
+  TITLE as EXPERTISE_TITLE,
 } from "@/data/expertise";
-import { DESC as DESC_PROJECTS, PROJECTS } from "@/data/projects";
+import { DESC as PROJECTS_DESC, PROJECTS } from "@/data/projects";
 import ProjectCard from "./components/project-card";
+import {
+  TITLE as CONTACT_TITLE,
+  DESC as CONTACT_DESC,
+  ADDRESS,
+  EMAIL,
+  PHONE,
+  FORM_DESC,
+  FORM_INPUT,
+} from "@/data/contact";
+import ContactCard from "./components/contact-card";
+import SocialMedia from "./components/social-media";
+import Input from "./components/input";
+import SendButton from "./components/send-button";
 
 export default function Home() {
   return (
     <>
-      <div className="w-full h-screen overflow-y-auto overflow-x-hidden px-6 snap-mandatory">
+      <div className="w-full h-screen overflow-y-auto overflow-x-hidden px-6 snap-mandatory space-y-10">
         <Navbar />
         <WrapperSection id="home">
           {/* Absolute elements */}
@@ -94,8 +107,8 @@ export default function Home() {
               <h1 className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-[12px]">
                 My Expertise
               </h1>
-              <p className="text-base md:text-xl">{TITLE_EXPERTISE}</p>
-              <p className="text-base md:text-xl">{DESC_EXPERTISE}</p>
+              <p className="text-base md:text-xl">{EXPERTISE_TITLE}</p>
+              <p className="text-base md:text-xl">{EXPERTISE_DESC}</p>
             </div>
 
             <div className="flex flex-col gap-2 md:gap-4 lg:w-1/2 max-w-[40rem] mt-10 lg:mt-0">
@@ -128,12 +141,12 @@ export default function Home() {
         </WrapperSection>
         <WrapperSection id="projects">
           {/* Content */}
-          <div className="flex flex-col items-center justify-center h-full gap-2 md:gap-4 md:pt-28 lg:pt-0 lg:w-full">
+          <div className="flex flex-col items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-16 md:pt-10 lg:pt-0 md:w-full max-w-[40rem] lg:max-w-[70rem]">
             <div className="text-center mb-10 md:pt-20">
               <h1 className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-[12px]">
                 My Projects
               </h1>
-              <p className="text-base md:text-xl">{DESC_PROJECTS}</p>
+              <p className="text-base md:text-xl">{PROJECTS_DESC}</p>
             </div>
             {/* Projects */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
@@ -147,7 +160,45 @@ export default function Home() {
           {/* Absolute elements */}
           <div className="bg-[#83B3AB] absolute -translate-y-1/2 top-1/2 -right-[30rem] w-[40rem] aspect-square rounded-full blur-[10rem] -z-10" />
           <div className="bg-[#DA4DF1] absolute -translate-y-1/2 top-1/2 -left-[30rem] w-[40rem] aspect-square rounded-full blur-[10rem] -z-10 opacity-50" />
-          Content 5
+
+          {/* Content */}
+          <div className="flex flex-col items-center justify-center h-full gap-2 md:gap-4 pt-24 md:pt-10 lg:pt-0 pb-32 md:pb-0 max-w-[40rem] lg:max-w-[70rem]">
+            <div className="bg-main-color p-6 md:p-10 rounded shadow grid grid-cols-1 md:grid-cols-2 gap-4">
+              <h1 className="col-span-1 md:col-span-2 lg:col-span-3 text-3xl mb-2 md:mb-4 md:text-5xl font-bold tracking-wide text-[#6D96B6] ">
+                {CONTACT_TITLE}
+              </h1>
+              <div className="flex flex-col gap-4">
+                <p className="text-base md:text-xl">{CONTACT_DESC}</p>
+                <div className="space-y-4 mb-4">
+                  <ContactCard name="Address" content={ADDRESS} />
+                  <ContactCard name="Email" content={EMAIL} />
+                  <ContactCard name="Phone" content={PHONE} />
+                </div>
+                <SocialMedia />
+              </div>
+              <div className="flex flex-col items-center justify-start">
+                <form className="flex flex-col gap-4">
+                  <h5 className="text-base md:text-lg">{FORM_DESC}</h5>
+                  <div className="w-full flex flex-col gap-4 mt-4">
+                    {FORM_INPUT.map((field, index) => {
+                      return (
+                        <Input
+                          key={index}
+                          id={field.id}
+                          type={field.type}
+                          name={field.name}
+                          placeholder={field.placeholder}
+                        />
+                      );
+                    })}
+                  </div>
+                  <div className="flex justify-start">
+                    <SendButton />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
         </WrapperSection>
       </div>
     </>
