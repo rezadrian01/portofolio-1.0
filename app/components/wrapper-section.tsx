@@ -3,14 +3,9 @@ import React, { FC } from "react";
 interface WrapperSectionProps {
   children: React.ReactNode;
   id: string;
-  last?: boolean;
 }
 
-const WrapperSection: FC<WrapperSectionProps> = ({
-  children,
-  id,
-  last = false,
-}) => {
+const WrapperSection: FC<WrapperSectionProps> = ({ children, id }) => {
   return (
     <>
       <section

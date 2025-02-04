@@ -156,7 +156,7 @@ export default function Home() {
             </div>
           </div>
         </WrapperSection>
-        <WrapperSection id="contact" last>
+        <WrapperSection id="contact">
           {/* Absolute elements */}
           <div className="bg-[#83B3AB] absolute -translate-y-1/2 top-1/2 -right-[30rem] w-[40rem] aspect-square rounded-full blur-[10rem] -z-10" />
           <div className="bg-[#DA4DF1] absolute -translate-y-1/2 top-1/2 -left-[30rem] w-[40rem] aspect-square rounded-full blur-[10rem] -z-10 opacity-50" />

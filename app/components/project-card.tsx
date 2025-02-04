@@ -14,7 +14,7 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
-  const { title, description, techStack, image, category } = project;
+  const { title, description, techStack, image } = project;
   return (
     <div className="relative cursor-pointer group overflow-hidden">
       <Image
