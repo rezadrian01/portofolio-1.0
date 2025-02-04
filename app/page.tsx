@@ -23,11 +23,13 @@ import ContactCard from "./components/contact-card";
 import SocialMedia from "./components/social-media";
 import Input from "./components/input";
 import SendButton from "./components/send-button";
+import { NAVBAR_LINKS } from "@/data/navbar";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <div className="w-full h-screen overflow-y-auto overflow-x-hidden px-6 snap-mandatory space-y-10">
+      <div className="relative w-full h-screen overflow-y-auto overflow-x-hidden px-6 snap-mandatory space-y-10">
         <Navbar />
         <WrapperSection id="home">
           {/* Absolute elements */}
@@ -35,7 +37,7 @@ export default function Home() {
           <div className="bg-[#9E68B5] absolute top-3/4 -translate-y-1/2 -right-[30rem] w-[45rem] aspect-square rounded-full blur-[15rem] -z-10" />
 
           {/* Content */}
-          <div className="flex flex-col lg:flex-row-reverse items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-16 md:pt-28 lg:pt-0 lg:w-full">
+          <div className="flex flex-col lg:flex-row-reverse items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-10 md:pt-28 lg:pb-32 lg:w-full">
             <div className="aspect-square rounded-full border-2 border-main-color shadow-md overflow-hidden">
               <Image
                 className="w-[15rem] md:w-[500px] mx-auto object-cover"
@@ -102,7 +104,7 @@ export default function Home() {
           <div className="bg-[#83B3AB] absolute -translate-y-1/2 top-1/2 -right-[10rem] w-[40rem] aspect-square rounded-full blur-[10rem] -z-10" />
 
           {/* Content */}
-          <div className="flex flex-col lg:flex-row items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-16 md:pt-28 lg:pt-0 lg:w-full">
+          <div className="flex flex-col lg:flex-row items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-10 md:pt-28 lg:pt-0 lg:w-full">
             <div className="lg:w-1/2 max-w-[40rem] flex flex-col gap-4 text-left">
               <h1 className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-[12px]">
                 My Expertise
@@ -115,24 +117,22 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4 md:gap-4">
                 {EXPERTISES.map((expertise, index) => {
                   return (
-                    <>
-                      <div
-                        className="bg-main-color flex flex-col gap-1 p-3 lg:p-6 rounded-md text-base md:text-xl"
-                        key={index}
-                        style={{
-                          marginBottom: index % 2 === 0 ? "1.5rem" : "0",
-                          marginTop: index % 2 === 0 ? "-1.5rem" : "0",
-                        }}
-                      >
-                        <div className="bg-slate-200 aspect-square max-w-[4rem] flex items-center justify-center rounded">
-                          <expertise.icon color="#6D96B6" size={30} />
-                        </div>
-                        <h3 className="text-[#6D96B6] font-bold">
-                          {expertise.title}
-                        </h3>
-                        <p>{expertise.description}</p>
+                    <div
+                      className="bg-main-color flex flex-col gap-1 p-3 lg:p-6 rounded-md text-base md:text-xl"
+                      key={index}
+                      style={{
+                        marginBottom: index % 2 === 0 ? "1.5rem" : "0",
+                        marginTop: index % 2 === 0 ? "-1.5rem" : "0",
+                      }}
+                    >
+                      <div className="bg-slate-200 aspect-square max-w-[4rem] flex items-center justify-center rounded">
+                        <expertise.icon color="#6D96B6" size={30} />
                       </div>
-                    </>
+                      <h3 className="text-[#6D96B6] font-bold">
+                        {expertise.title}
+                      </h3>
+                      <p>{expertise.description}</p>
+                    </div>
                   );
                 })}
               </div>
@@ -141,8 +141,8 @@ export default function Home() {
         </WrapperSection>
         <WrapperSection id="projects">
           {/* Content */}
-          <div className="flex flex-col items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-16 md:pt-10 lg:pt-0 md:w-full max-w-[40rem] lg:max-w-[70rem]">
-            <div className="text-center mb-10 md:pt-20">
+          <div className="flex flex-col items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-10 md:pt-10 lg:pt-0 md:w-full max-w-[40rem] lg:max-w-[70rem]">
+            <div className="text-left md:text-center mb-10 md:pt-20">
               <h1 className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-[12px]">
                 My Projects
               </h1>
@@ -156,13 +156,12 @@ export default function Home() {
             </div>
           </div>
         </WrapperSection>
-        <WrapperSection id="contact">
+        <WrapperSection id="contact" last>
           {/* Absolute elements */}
           <div className="bg-[#83B3AB] absolute -translate-y-1/2 top-1/2 -right-[30rem] w-[40rem] aspect-square rounded-full blur-[10rem] -z-10" />
           <div className="bg-[#DA4DF1] absolute -translate-y-1/2 top-1/2 -left-[30rem] w-[40rem] aspect-square rounded-full blur-[10rem] -z-10 opacity-50" />
-
           {/* Content */}
-          <div className="flex flex-col items-center justify-center h-full gap-2 md:gap-4 pt-24 md:pt-10 lg:pt-0 pb-32 md:pb-0 max-w-[40rem] lg:max-w-[70rem]">
+          <div className="flex flex-col items-center justify-center h-full gap-2 md:gap-4 pt-10 lg:pt-0 pb-32 md:pb-0 max-w-[40rem] lg:max-w-[70rem]">
             <div className="bg-main-color p-6 md:p-10 rounded shadow grid grid-cols-1 md:grid-cols-2 gap-4">
               <h1 className="col-span-1 md:col-span-2 lg:col-span-3 text-3xl mb-2 md:mb-4 md:text-5xl font-bold tracking-wide text-[#6D96B6] ">
                 {CONTACT_TITLE}
@@ -200,6 +199,18 @@ export default function Home() {
             </div>
           </div>
         </WrapperSection>
+        <div className="bg-main-color absolute inset-x-0 flex flex-col gap-10  px-10 py-24 text-center">
+          <ul className="flex justify-center items-center gap-4 md:gap-16">
+            {NAVBAR_LINKS.map((link, index) => {
+              return (
+                <li className="hover:underline" key={index}>
+                  <Link href={link.href}>{link.content}</Link>
+                </li>
+              );
+            })}
+          </ul>
+          <p>Copyright &#169; 2025 Ahmad Reza Adrian</p>
+        </div>
       </div>
     </>
   );
