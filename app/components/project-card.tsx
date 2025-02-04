@@ -28,7 +28,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project, index }) => {
       variants={GET_DEFAULT_REVEAL_VARIANTS((index + 0.35) * 0.2)}
       initial="hidden"
       whileInView="visible"
-      // viewport={{ once: true }}
+      viewport={{ once: true }}
       className="relative cursor-pointer group overflow-hidden"
     >
       <Image
@@ -50,7 +50,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project, index }) => {
         variants={GET_REVEAL_VARIANTS((index + 1) * 0.2)}
         initial="hidden"
         whileInView="visible"
-        // viewport={{ once: true }}
+        viewport={{ once: true }}
         className="absolute inset-0 bg-main-color z-50"
       />
     </motion.div>

@@ -22,7 +22,7 @@ const ContactCard: FC<ContactCardProps> = ({ name, content, order }) => {
       variants={GET_DEFAULT_REVEAL_VARIANTS(0.5)}
       initial="hidden"
       whileInView="visible"
-      // viewport={{ once: true }}
+      viewport={{ once: true }}
       className="bg-slate-200 flex gap-4 items-center rounded-lg p-4 max-w-[25rem] relative"
     >
       <div className="bg-[#6D96B6] flex items-center justify-center p-2 rounded">
@@ -38,7 +38,7 @@ const ContactCard: FC<ContactCardProps> = ({ name, content, order }) => {
         variants={GET_REVEAL_VARIANTS((order + 2) * 0.2)}
         initial="hidden"
         whileInView="visible"
-        // viewport={{ once: true }}
+        viewport={{ once: true }}
         className="absolute bg-secondary-color-500 inset-0 z-50"
       />
     </motion.div>
