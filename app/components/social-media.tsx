@@ -23,6 +23,7 @@ const SocialMedia = () => {
             viewport={{ once: true }}
             className="bg-slate-200 hover:bg-slate-100 rounded p-2 flex items-center justify-center "
             href={socmed.url}
+            target="_blank"
           >
             {socmed.name === "Facebook" && (
               <Facebook color="#6D96B6" size={24} />
