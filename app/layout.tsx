@@ -13,8 +13,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ahmad Reza Adrian",
-  description: "lore ipsum dolor sit amet consectetur adipisicing elit sed do",
+  title: "Ahmad Reza Adrian – Full-Stack Developer",
+  description:
+    "Junior full-stack developer specializing in scalable applications and seamless user experiences. Exploring machine learning to enhance software intelligence.",
+  authors: [{ name: "Ahmad Reza Adrian" }],
+  keywords: [
+    "portfolio",
+    "web developer",
+    "full-stack developer",
+    "backend developer",
+    "frontend developer",
+    "react",
+    "nextjs",
+    "nodejs",
+    "machine learning",
+    "ahmad reza adrian",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://rezadrian.my.id",
+  },
 };
 
 export default function RootLayout({
