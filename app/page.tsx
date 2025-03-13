@@ -21,6 +21,7 @@ import {
   GET_REVEAL_VARIANTS,
 } from "./lib/animation-variants";
 import ContactSection from "./components/Sections/ContactSection";
+import ContactSection from "./components/Sections/ContactSection";
 
 export default function Home() {
   return (
@@ -129,6 +130,9 @@ export default function Home() {
               </motion.p>
               <div>
                 <motion.button
+                  onClick={() =>
+                    window.open("cv/Ahmad_Reza_Adrian_CV.pdf", "_blank")
+                  }
                   onClick={() =>
                     window.open("cv/Ahmad_Reza_Adrian_CV.pdf", "_blank")
                   }
