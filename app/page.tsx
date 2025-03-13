@@ -21,7 +21,6 @@ import {
   GET_REVEAL_VARIANTS,
 } from "./lib/animation-variants";
 import ContactSection from "./components/Sections/ContactSection";
-import ContactSection from "./components/Sections/ContactSection";
 
 export default function Home() {
   return (
@@ -130,9 +129,6 @@ export default function Home() {
               </motion.p>
               <div>
                 <motion.button
-                  onClick={() =>
-                    window.open("cv/Ahmad_Reza_Adrian_CV.pdf", "_blank")
-                  }
                   onClick={() =>
                     window.open("cv/Ahmad_Reza_Adrian_CV.pdf", "_blank")
                   }
@@ -344,7 +340,6 @@ export default function Home() {
         <WrapperSection id="projects">
           {/* Content */}
           <div className="flex flex-col items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-10 md:pt-10 lg:pt-0 md:w-full max-w-[40rem] lg:max-w-[70rem]">
-            {/* md:pt-20 if there are 6 projects  */}
             <div className="text-left md:text-center mb-10 md:pt-2">
               <motion.h1
                 variants={GET_DEFAULT_REVEAL_VARIANTS()}

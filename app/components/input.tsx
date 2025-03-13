@@ -32,7 +32,7 @@ const Input: FC<InputProps> = ({ id, name, placeholder, type, index }) => {
         name={name}
         required={type === "phone" ? false : true}
         type={type === "phone" ? "string" : type}
-        inputMode={type === "phone" ? "tel" : "none"}
+        inputMode={type === "phone" ? "numeric" : "text"}
       />
       <motion.span
         variants={GET_REVEAL_VARIANTS((index + 2.5) * 0.2)}
