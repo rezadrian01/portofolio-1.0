@@ -341,7 +341,7 @@ export default function Home() {
           {/* Content */}
           <div className="flex flex-col items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-10 md:pt-10 lg:pt-0 md:w-full max-w-[40rem] lg:max-w-[70rem]">
             {/* md:pt-20 if there are 6 projects  */}
-            <div className="text-left md:text-center mb-10 md:pt-2">
+            <div className="text-left lg:text-center mb-10 md:pt-20 lg:pt-2">
               <motion.h1
                 variants={GET_DEFAULT_REVEAL_VARIANTS()}
                 initial="hidden"
