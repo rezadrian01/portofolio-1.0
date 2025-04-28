@@ -54,7 +54,7 @@ export default function Home() {
             >
               <Image
                 className="w-[15rem] md:w-[500px] mx-auto object-cover"
-                src="/images/hero.png"
+                src="/images/hero_img_croped.png"
                 alt="profile-photo"
                 width={500}
                 height={500}
