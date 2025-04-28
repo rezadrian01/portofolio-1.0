@@ -4,7 +4,7 @@ export async function POST(req: NextRequest) {
   try {
     const { name, email, phone, message } = await req.json();
 
-    const chatId = process.env.TELEGRAM_CHAT_ID; // Pakai variabel lingkungan (aman)
+    const chatId = process.env.TELEGRAM_CHAT_ID;
     const botToken = process.env.TELEGRAM_BOT_TOKEN;
     if (!name || !email || !message) {
       return new Response(
