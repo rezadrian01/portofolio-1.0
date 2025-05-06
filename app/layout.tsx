@@ -37,6 +37,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://rezadrian.my.id",
   },
+  applicationName: "Ahmad Reza Adrian",
 };
 
 export default function RootLayout({
