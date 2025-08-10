@@ -130,7 +130,7 @@ export default function Home() {
               <div>
                 <motion.button
                   onClick={() =>
-                    window.open("cv/2/2.0.1/Ahmad_Reza_Adrian_CV.pdf", "_blank")
+                    window.open("cv/2/2.0.2/Ahmad_Reza_Adrian_CV.pdf", "_blank")
                   }
                   variants={{
                     hidden: {
