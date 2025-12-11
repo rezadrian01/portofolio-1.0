@@ -29,8 +29,8 @@ export default function Home() {
         <Navbar />
         <WrapperSection id="home">
           {/* Absolute elements */}
-          <div className="bg-[#83A7B3] absolute -top-[25rem] left-1/2 -translate-x-1/2 w-[40rem] aspect-square rounded-full blur-[15rem] -z-10" />
-          <div className="bg-[#9E68B5] absolute top-3/4 -translate-y-1/2 -right-[30rem] w-[45rem] aspect-square rounded-full blur-[15rem] -z-10" />
+          <div className="bg-[#83A7B3] absolute -top-100 left-1/2 -translate-x-1/2 w-160 aspect-square rounded-full blur-[15rem] -z-10" />
+          <div className="bg-[#9E68B5] absolute top-3/4 -translate-y-1/2 -right-120 w-180 aspect-square rounded-full blur-[15rem] -z-10" />
 
           {/* Content */}
           <div className="flex flex-col lg:flex-row-reverse items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-10 md:pt-16 lg:pb-32 lg:w-full">
@@ -53,7 +53,7 @@ export default function Home() {
               className="aspect-square rounded-full border-2 border-main-color shadow-md overflow-hidden relative"
             >
               <Image
-                className="w-[15rem] md:w-[500px] mx-auto object-cover"
+                className="w-60 md:w-[500px] mx-auto object-cover"
                 src="/images/hero_img_croped.png"
                 alt="profile-photo"
                 width={500}
@@ -78,7 +78,7 @@ export default function Home() {
                 className="absolute bg-main-color inset-0"
               />
             </motion.div>
-            <div className="space-y-2 md:space-y-4 max-w-[40rem]">
+            <div className="space-y-2 md:space-y-4 max-w-160">
               <motion.h1
                 variants={GET_DEFAULT_REVEAL_VARIANTS()}
                 initial="hidden"
@@ -158,8 +158,8 @@ export default function Home() {
 
         <WrapperSection id="about">
           {/* Absolute elements */}
-          <div className="bg-[#FFDFA8] absolute -translate-y-1/2 top-1/2 -left-[10rem] w-[40rem] h-[10rem] -rotate-45 rounded-full blur-[10rem] -z-10" />
-          <div className="bg-[#83B3AB] absolute -translate-y-1/2 top-3/4 -translate-x-1/2 left-1/2 w-[80rem] aspect-square rounded-full blur-[10rem] -z-10 opacity-20" />
+          <div className="bg-[#FFDFA8] absolute -translate-y-1/2 top-1/2 -left-40 w-160 h-40 -rotate-45 rounded-full blur-[10rem] -z-10" />
+          <div className="bg-[#83B3AB] absolute -translate-y-1/2 top-3/4 -translate-x-1/2 left-1/2 w-7xl aspect-square rounded-full blur-[10rem] -z-10 opacity-20" />
 
           {/* Content */}
           <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between h-full gap-2 md:gap-4 pt-6 md:pt-28 lg:pt-0 lg:w-full">
@@ -172,7 +172,7 @@ export default function Home() {
                 className="aspect-square rounded-xl shadow-md overflow-hidden relative"
               >
                 <Image
-                  className="w-[15rem] md:w-[500px] mx-auto object-cover hover:scale-110 transition-all cursor-pointer"
+                  className="w-60 md:w-[500px] mx-auto object-cover hover:scale-110 transition-all cursor-pointer"
                   src="/images/about.jpg"
                   alt="profile-photo"
                   width={500}
@@ -190,13 +190,13 @@ export default function Home() {
               </motion.div>
             </div>
 
-            <div className="flex flex-col gap-2 md:gap-4 lg:w-1/2 max-w-[40rem]">
+            <div className="flex flex-col gap-2 md:gap-4 lg:w-1/2 max-w-160">
               <motion.h1
                 variants={GET_DEFAULT_REVEAL_VARIANTS(0.2)}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-[12px] relative"
+                className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-12 relative"
               >
                 About Me
                 <motion.span
@@ -234,17 +234,17 @@ export default function Home() {
 
         <WrapperSection id="expertise">
           {/* Absolute elements */}
-          <div className="bg-[#83B3AB] absolute -translate-y-1/2 top-1/2 -right-[10rem] w-[40rem] aspect-square rounded-full blur-[10rem] -z-10" />
+          <div className="bg-[#83B3AB] absolute -translate-y-1/2 top-1/2 -right-40 w-160 aspect-square rounded-full blur-[10rem] -z-10" />
 
           {/* Content */}
           <div className="flex flex-col lg:flex-row items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-10 md:pt-28 lg:pt-0 lg:w-full">
-            <div className="lg:w-1/2 max-w-[40rem] flex flex-col gap-4 text-left">
+            <div className="lg:w-1/2 max-w-160 flex flex-col gap-4 text-left">
               <motion.h1
                 variants={GET_DEFAULT_REVEAL_VARIANTS()}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-[12px] relative"
+                className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-12 relative"
               >
                 My Expertise
                 <motion.span
@@ -289,7 +289,7 @@ export default function Home() {
               </motion.p>
             </div>
 
-            <div className="flex flex-col gap-2 md:gap-4 lg:w-1/2 max-w-[40rem] mt-10 lg:mt-0">
+            <div className="flex flex-col gap-2 md:gap-4 lg:w-1/2 max-w-160 mt-10 lg:mt-0">
               <div className="grid grid-cols-2 gap-4 md:gap-4">
                 {EXPERTISES.map((expertise, index) => {
                   return (
@@ -307,7 +307,7 @@ export default function Home() {
                         marginTop: index % 2 === 0 ? "-1.5rem" : "0",
                       }}
                     >
-                      <div className="bg-slate-200 aspect-square max-w-[4rem] flex items-center justify-center rounded">
+                      <div className="bg-slate-200 aspect-square max-w-16 flex items-center justify-center rounded">
                         <expertise.icon color="#6D96B6" size={30} />
                       </div>
                       <h3 className="text-[#6D96B6] font-bold relative">
@@ -339,14 +339,14 @@ export default function Home() {
         </WrapperSection>
         <WrapperSection id="projects">
           {/* Content */}
-          <div className="flex flex-col items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-10 md:pt-10 lg:pt-0 md:w-full max-w-[40rem] lg:max-w-[70rem]">
+          <div className="flex flex-col items-center justify-start lg:justify-between h-full gap-2 md:gap-4 pt-10 md:pt-10 lg:pt-0 md:w-full max-w-160 lg:max-w-280">
             <div className="text-left md:text-center mb-10 md:pt-2">
               <motion.h1
                 variants={GET_DEFAULT_REVEAL_VARIANTS()}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-[12px] relative"
+                className="text-3xl mb-2 md:mb-6 md:text-5xl font-bold tracking-wide text-[#6D96B6] underline underline-offset-4 lg:underline-offset-12 relative"
               >
                 My Projects
                 <motion.span

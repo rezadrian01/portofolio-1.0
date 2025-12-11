@@ -32,7 +32,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project, index }) => {
       className="relative cursor-pointer group overflow-hidden"
     >
       <Image
-        className="aspect-[4/3] object-cover mx-auto group-hover:scale-105 transition-all"
+        className="aspect-4/3 object-cover mx-auto group-hover:scale-105 transition-all"
         src={image}
         alt={`${title} image`}
         width={500}
@@ -45,7 +45,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ project, index }) => {
           {description}
         </p>
       </div>
-      <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-black/15 bg-opacity-30 group-hover:bg-black/50 transition-all" />
+      <div className="absolute inset-0 bg-linear-to-t from-black/90 to-black/15 bg-opacity-30 group-hover:bg-black/50 transition-all" />
       <motion.span
         variants={GET_REVEAL_VARIANTS((index + 1) * 0.2)}
         initial="hidden"

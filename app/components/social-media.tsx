@@ -11,7 +11,7 @@ import { GET_DEFAULT_REVEAL_VARIANTS } from "../lib/animation-variants";
 
 const SocialMedia = () => {
   return (
-    <div className="flex gap-4 justify-start max-w-[25rem]">
+    <div className="flex gap-4 justify-start max-w-100">
       {SOCIAL_MEDIA.map((socmed, index) => {
         return (
           <motion.a

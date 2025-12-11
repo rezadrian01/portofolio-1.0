@@ -61,11 +61,11 @@ const ContactSection = () => {
   return (
     <WrapperSection id="contact">
       {/* Absolute elements */}
-      <div className="bg-[#83B3AB] absolute -translate-y-1/2 top-1/2 -right-[30rem] w-[40rem] aspect-square rounded-full blur-[10rem] -z-10" />
-      <div className="bg-[#DA4DF1] absolute -translate-y-1/2 top-1/2 -left-[30rem] w-[40rem] aspect-square rounded-full blur-[10rem] -z-10 opacity-50" />
+      <div className="bg-[#83B3AB] absolute -translate-y-1/2 top-1/2 -right-120 w-160 aspect-square rounded-full blur-[10rem] -z-10" />
+      <div className="bg-[#DA4DF1] absolute -translate-y-1/2 top-1/2 -left-120 w-160 aspect-square rounded-full blur-[10rem] -z-10 opacity-50" />
 
       {/* Content */}
-      <div className="flex flex-col items-center justify-center h-full gap-2 md:gap-4 pt-10 lg:pt-0 pb-32 md:pb-0 max-w-[40rem] lg:max-w-[70rem]">
+      <div className="flex flex-col items-center justify-center h-full gap-2 md:gap-4 pt-10 lg:pt-0 pb-32 md:pb-0 max-w-160 lg:max-w-280">
         <div className="bg-main-color p-6 md:p-10 rounded shadow grid grid-cols-1 md:grid-cols-2 gap-4">
           <motion.h1
             variants={GET_DEFAULT_REVEAL_VARIANTS()}
