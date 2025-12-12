@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useEffect, useRef } from 'react'
+import Image from 'next/image'
 import { SKILLS_TITLE, SKILLS_DESC, SKILLS } from '@/data/skills'
 import GradientText from '@/components/GradientText'
 import SpotlightCard from '@/components/SpotlightCard'
@@ -202,9 +203,17 @@ const SkillCard = ({ skill }: SkillCardProps) => {
             'transition-opacity duration-300',
             isHovered ? 'opacity-100' : 'opacity-0'
           )} />
-          <div className='relative text-4xl'>
-            {/* Placeholder for icon */}
-            <span className='text-tertiary-app'>⚡</span>
+          <div className='relative w-12 h-12'>
+            <Image
+              src={skill.icon}
+              alt={skill.name}
+              width={48}
+              height={48}
+              className={cn(
+                'object-contain',
+                (skill.name === 'Next.js' || skill.name === 'ExpressJS') && 'invert'
+              )}
+            />
           </div>
         </div>
 

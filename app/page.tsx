@@ -4,6 +4,7 @@ import AboutSection from "./components/AboutSection";
 import WorkSection from "./components/WorkSection";
 import SkillSection from "./components/SkillSection";
 import DetailSection from "./components/DetailSection";
+import CollaborationSection from "./components/CollaborationSection";
 
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
       <WorkSection />
       <SkillSection />
       <DetailSection />
+      <CollaborationSection />
     </div>
   )
 }
