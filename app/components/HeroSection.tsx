@@ -6,7 +6,7 @@ import Particles from '@/components/Particles'
 
 const HeroSection = () => {
   return (
-    <div className='relative w-full h-dvh border flex flex-col items-center justify-center px-6'>
+    <section className='relative w-full h-dvh border flex flex-col items-center justify-center px-6'>
       <div className='absolute inset-0 z-0'>
         <Particles
           particleColors={['#ffffff', '#ffffff']}
@@ -47,7 +47,7 @@ const HeroSection = () => {
         </h2>
         <ConnectButton />
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -1,9 +1,9 @@
+import Threads from '@/components/Threads'
 import Image from 'next/image'
-import React from 'react'
 
 const AboutSection = () => {
   return (
-    <div className='relative w-full min-h-dvh border flex flex-col md:grid md:grid-cols-2 items-center justify-center px-6'>
+    <section className='relative w-full min-h-dvh border flex flex-col md:grid md:grid-cols-2 items-center justify-center px-6 md:px-14 lg:px-56'>
       <div className='flex flex-col justify-center items-center p-10 order-2 md:order-1'>
         <div className='flex flex-col gap-6'>
           <h2 className='text-5xl font-thin'>Ahmad Reza Adrian</h2>
@@ -25,6 +25,7 @@ const AboutSection = () => {
       </div>
       <div className='flex flex-col justify-center items-center p-10 order-1 md:order-2'>
         <Image
+          loading='eager'
           src="/images/main_photo_cropped-2.png"
           alt="About Image"
           width={500}
@@ -32,7 +33,14 @@ const AboutSection = () => {
           className="rounded-lg shadow-lg"
         />
       </div>
-    </div >
+      <div className='absolute bottom-0 left-0 w-full'>
+        <Threads
+          amplitude={1.7}
+          distance={0}
+          enableMouseInteraction={true}
+        />
+      </div>
+    </section >
   )
 }
 
