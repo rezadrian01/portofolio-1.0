@@ -1,20 +1,13 @@
 import TextType from "@/components/TextType";
+import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
 
 
 const HomePage = () => {
   return (
     <div>
-      <TextType
-        text={[
-          "Hello, I'm Ahmad Reza Adrian",
-          "I'm a Software Engineer",
-          "I love building web applications",
-        ]}
-        typingSpeed={75}
-        pauseDuration={2500}
-        showCursor={true}
-        cursorCharacter="|"
-      />
+      <HeroSection />
+      <AboutSection />
     </div>
   )
 }
