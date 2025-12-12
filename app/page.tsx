@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import WorkSection from "./components/WorkSection";
 import SkillSection from "./components/SkillSection";
+import DetailSection from "./components/DetailSection";
 
 
 const HomePage = () => {
@@ -12,6 +13,7 @@ const HomePage = () => {
       <AboutSection />
       <WorkSection />
       <SkillSection />
+      <DetailSection />
     </div>
   )
 }
