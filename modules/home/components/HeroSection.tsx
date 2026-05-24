@@ -18,7 +18,7 @@ const HeroSection = () => {
   const t = useTranslations("HomePage.hero");
 
   return (
-    <section className="relative flex min-h-[calc(100vh-6rem)] items-center">
+    <section className="relative flex min-h-[calc(100vh-8rem)] items-center">
       <div className="flex w-full flex-col-reverse items-center gap-8 md:flex-row md:justify-between md:gap-12">
         {/* Text Content */}
         <motion.div
