@@ -1,0 +1,169 @@
+{
+  "HomePage": {
+    "hero": {
+      "greeting": "Hi, I'm",
+      "tagline": "Building scalable APIs and full-stack web applications — with a growing focus on system design and cloud-native services.",
+      "cta_projects": "View Projects",
+      "cta_cv": "Download CV"
+    },
+    "about_snippet": {
+      "label": "About Me",
+      "heading": "Who I Am",
+      "paragraph_1": "I'm an Informatics Engineering student at Universitas Negeri Malang and Software Engineer at Intervyou.me. I specialize in backend development with NestJS, Node.js, and PostgreSQL — and build full-stack features when needed.",
+      "paragraph_2": "I love turning complex problems into clean, maintainable solutions — whether that's a scalable REST API, an AI-integrated service, or a polished front-end experience.",
+      "read_more": "More about me",
+      "stat_years": "Years Experience",
+      "stat_projects": "Projects Built",
+      "stat_certificates": "Certificates",
+      "stat_companies": "Companies Worked With",
+      "stat_technologies": "Technologies"
+    },
+    "featured_projects": {
+      "label": "Selected Work",
+      "heading": "Featured Projects",
+      "cta": "See all projects"
+    },
+    "tech_stack": {
+      "label": "Tech Stack",
+      "heading": "Tools I Work With"
+    },
+    "contact_cta": {
+      "heading": "Let's Work Together",
+      "subtext": "Open to collaborations, freelance projects, and full-time opportunities. Feel free to reach out!",
+      "cta": "Send me a message"
+    },
+    "error": "An error occurred on the server.",
+    "no_data": "No data available."
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "Backend engineer with full-stack capabilities — my experience, skills, and educational background.",
+    "bio": {
+      "label": "Introduction",
+      "heading": "About Me",
+      "paragraph_1": "I'm Ahmad Reza Adrian, an Informatics Engineering student at Universitas Negeri Malang. I work as a Software Engineer at Intervyou.me, building AI-integrated backend services and full-stack features for real users.",
+      "paragraph_2": "My core strength is backend engineering — designing RESTful APIs, working with databases like PostgreSQL and MongoDB, and integrating AI capabilities using the Google Gemini API. I also build front-end experiences with Next.js and React when the project calls for it.",
+      "paragraph_3": "I believe well-structured code and clear system design are as important as shipping features. I'm always exploring new approaches — currently interested in system design and cloud-native development.",
+      "download_cv": "Download CV"
+    },
+    "experience": {
+      "label": "Experience",
+      "heading": "Work Experience",
+      "no_data": "No experience data available."
+    },
+    "education": {
+      "title": "Education",
+      "sub_title": "My academic background.",
+      "label": "Education",
+      "heading": "Education",
+      "no_data": "No education data available."
+    },
+    "certificates": {
+      "label": "Certificates",
+      "heading": "Certificates",
+      "view_credential": "View Credential",
+      "no_data": "No certificates data available."
+    },
+    "resume": {
+      "paragraph_1": "I'm Ahmad Reza Adrian, an Informatics Engineering student at Universitas Negeri Malang. I work as a Software Engineer at Intervyou.me, building AI-integrated backend services and full-stack features for real users.",
+      "paragraph_2": "My core strength is backend engineering — designing RESTful APIs, working with databases like PostgreSQL and MongoDB, and integrating AI capabilities using the Google Gemini API. I also build front-end experiences with Next.js and React when the project calls for it.",
+      "paragraph_3": "I believe well-structured code and clear system design are as important as shipping features. I'm always exploring new approaches — currently interested in system design and cloud-native development.",
+      "paragraph_4": "I'm open to new opportunities where I can contribute to impactful products and continue growing as an engineer."
+    },
+    "career": {
+      "title": "Work Experience",
+      "sub_title": "My professional journey so far."
+    },
+    "error": "An error occurred on the server.",
+    "no_data": "No data available."
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "description": "A showcase of my full-stack, frontend, and backend projects.",
+    "filter_all": "All",
+    "filter_fullstack": "Full-Stack",
+    "filter_frontend": "Frontend",
+    "filter_backend": "Backend",
+    "view_project": "View Project",
+    "tech_stack": "Tech Stack",
+    "back_button": "Back",
+    "source_code_text": "Source Code",
+    "live_demo_text": "Live Demo",
+    "error": "An error occurred on the server.",
+    "no_data": "No projects available."
+  },
+  "AchievementsPage": {
+    "title": "Achievements",
+    "description": "Certificates, awards, and milestones from my academic and professional journey.",
+    "filter_all": "All",
+    "filter_certificate": "Certificate",
+    "filter_award": "Award",
+    "filter_competition": "Competition",
+    "error": "An error occurred on the server.",
+    "no_data": "No achievements available.",
+    "show_credential": "Show Credential"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "Let's get in touch. I'm always open to new opportunities and collaborations.",
+    "info": {
+      "label": "Contact Info",
+      "heading": "Get in Touch",
+      "subtext": "Whether you have a project in mind, want to collaborate, or just want to say hi — my inbox is always open."
+    },
+    "form": {
+      "title": "Send Me a Message",
+      "label": "Send a Message",
+      "heading": "Send Me a Message",
+      "input_name": "Name",
+      "input_email": "Email",
+      "input_phone": "Phone Number (Optional)",
+      "input_message": "Message",
+      "button": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "social_media": {
+      "title": "Find me on",
+      "gmail": {
+        "title": "Stay in Touch",
+        "description": "Reach out via email for any inquiries or collaborations."
+      },
+      "instagram": {
+        "title": "Follow My Journey",
+        "description": "Stay updated with my latest posts and stories on Instagram."
+      },
+      "linkedin": {
+        "title": "Let's Connect",
+        "description": "Connect for collaboration or explore my professional experience."
+      },
+      "github": {
+        "title": "Explore the Code",
+        "description": "Explore the source code for all my projects on GitHub."
+      },
+      "facebook": {
+        "title": "Add Me on Facebook",
+        "description": "Connect with me on Facebook."
+      }
+    }
+  },
+  "Footer": {
+    "copyright_1": "COPYRIGHT ©",
+    "copyright_2": "Ahmad Reza Adrian. All rights reserved."
+  },
+  "LocaleSwitcher": {
+    "en": "🇺🇸",
+    "id": "🇮🇩",
+    "label": "Language"
+  },
+  "Navigation": {
+    "Home": "Home",
+    "About": "About",
+    "Projects": "Projects",
+    "Contact": "Contact"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "button": "Take me home"
+  }
+}
