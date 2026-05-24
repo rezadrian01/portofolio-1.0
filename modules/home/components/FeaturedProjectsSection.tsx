@@ -5,7 +5,7 @@ import { BsGithub, BsBoxArrowUpRight, BsArrowRight } from "react-icons/bs";
 
 import SectionHeading from "@/common/components/elements/SectionHeading";
 import SpotlightCard from "@/common/components/elements/SpotlightCard";
-import { PROJECTS } from "@/common/constants/projects";
+import { PROJECTS, type ProjectEntry } from "@/common/constants/projects";
 
 const FeaturedProjectsSection = () => {
   const t = useTranslations("HomePage.featured_projects");

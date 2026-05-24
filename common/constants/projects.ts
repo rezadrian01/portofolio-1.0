@@ -1,6 +1,6 @@
 export type ProjectCategory = "Full-Stack" | "Frontend" | "Machine Learning";
 
-export interface ProjectItem {
+export interface ProjectEntry {
   slug: string;
   title: string;
   description: string;
@@ -12,7 +12,7 @@ export interface ProjectItem {
   featured: boolean;
 }
 
-export const PROJECTS: ProjectItem[] = [
+export const PROJECTS: ProjectEntry[] = [
   {
     slug: "laundry-management",
     title: "Laundry Management",
