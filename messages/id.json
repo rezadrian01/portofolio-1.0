@@ -51,6 +51,8 @@
       "no_data": "Belum ada data pengalaman."
     },
     "education": {
+      "title": "Pendidikan",
+      "sub_title": "Latar belakang akademis saya.",
       "label": "Pendidikan",
       "heading": "Pendidikan",
       "no_data": "Belum ada data pendidikan."
@@ -60,6 +62,16 @@
       "heading": "Sertifikat",
       "view_credential": "Lihat Sertifikat",
       "no_data": "Belum ada data sertifikat."
+    },
+    "resume": {
+      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Ilmu Komputer di Universitas Brawijaya, Malang. Saya bersemangat membangun produk digital yang berdampak — dari platform web yang skalabel hingga integrasi machine learning.",
+      "paragraph_2": "Stack utama saya adalah MERN stack dikombinasikan dengan Next.js dan TypeScript, tetapi saya selalu antusias menjelajahi teknologi baru. Saya percaya bahwa kode yang bersih dan arsitektur yang baik sama pentingnya dengan fitur yang berfungsi.",
+      "paragraph_3": "Di luar coding, saya menikmati tantangan problem-solving di platform seperti Codewars, berkontribusi pada proyek open-source, dan terus belajar melalui proyek-proyek nyata.",
+      "paragraph_4": "Saya sedang mencari kesempatan untuk berkembang sebagai developer dan berkontribusi pada proyek-proyek yang bermakna."
+    },
+    "career": {
+      "title": "Pengalaman Kerja",
+      "sub_title": "Perjalanan profesional saya sejauh ini."
     },
     "error": "Terjadi kesalahan pada server.",
     "no_data": "Tidak ada data tersedia."
@@ -99,6 +111,7 @@
       "subtext": "Apakah Anda punya proyek yang ingin dikerjakan, ingin berkolaborasi, atau sekadar menyapa — kotak masuk saya selalu terbuka."
     },
     "form": {
+      "title": "Kirim Pesan",
       "label": "Kirim Pesan",
       "heading": "Kirim Pesan",
       "input_name": "Nama",
@@ -110,7 +123,27 @@
       "error": "Gagal mengirim pesan. Silakan coba lagi."
     },
     "social_media": {
-      "title": "Temukan saya di"
+      "title": "Temukan saya di",
+      "gmail": {
+        "title": "Tetap Terhubung",
+        "description": "Hubungi saya melalui email untuk pertanyaan atau kolaborasi."
+      },
+      "instagram": {
+        "title": "Ikuti Perjalanan Saya",
+        "description": "Tetap update dengan postingan dan story terbaru saya di Instagram."
+      },
+      "linkedin": {
+        "title": "Mari Terhubung",
+        "description": "Terhubung untuk kolaborasi atau jelajahi pengalaman profesional saya."
+      },
+      "github": {
+        "title": "Jelajahi Kode",
+        "description": "Jelajahi kode sumber untuk semua proyek saya di GitHub."
+      },
+      "facebook": {
+        "title": "Tambahkan Saya di Facebook",
+        "description": "Terhubung dengan saya di Facebook."
+      }
     }
   },
   "Footer": {

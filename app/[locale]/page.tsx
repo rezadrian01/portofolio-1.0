@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 
-import Container from "@/common/components/elements/Container";
 import Home from "@/modules/home";
 import { METADATA } from "@/common/constants/metadata";
 
@@ -16,13 +15,13 @@ export async function generateMetadata({
 
   return {
     title: `${METADATA.creator} | Portfolio`,
-    description: t("resume.paragraph_1"),
+    description: t("hero.tagline"),
     alternates: {
       canonical: `${process.env.DOMAIN}/${locale}`,
     },
     openGraph: {
       title: `${METADATA.creator} | Personal Website`,
-      description: t("resume.paragraph_1"),
+      description: t("hero.tagline"),
       url: `${process.env.DOMAIN}/${locale}`,
       siteName: METADATA.openGraph.siteName,
       locale: locale === "id" ? "id_ID" : "en_US",
@@ -31,12 +30,8 @@ export async function generateMetadata({
   };
 }
 
-const HomePage = async ({ params: { locale } }: HomePageProps) => {
-  return (
-    <Container data-aos="fade-up">
-      <Home />
-    </Container>
-  );
+const HomePage = async (_props: HomePageProps) => {
+  return <Home />;
 };
 
 export default HomePage;

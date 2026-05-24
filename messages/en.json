@@ -51,6 +51,8 @@
       "no_data": "No experience data available."
     },
     "education": {
+      "title": "Education",
+      "sub_title": "My academic background.",
       "label": "Education",
       "heading": "Education",
       "no_data": "No education data available."
@@ -60,6 +62,16 @@
       "heading": "Certificates",
       "view_credential": "View Credential",
       "no_data": "No certificates data available."
+    },
+    "resume": {
+      "paragraph_1": "I'm Ahmad Reza Adrian, a Computer Science student at Universitas Brawijaya, Malang. I'm passionate about building impactful digital products — from scalable web platforms to machine learning integrations.",
+      "paragraph_2": "My primary stack is the MERN stack combined with Next.js and TypeScript, but I'm always eager to explore new technologies. I believe clean code and good architecture are as important as working features.",
+      "paragraph_3": "Outside of coding, I enjoy problem-solving challenges on platforms like Codewars, contributing to open-source projects, and continuously learning through hands-on projects.",
+      "paragraph_4": "I'm currently seeking opportunities to grow as a developer and contribute to meaningful projects."
+    },
+    "career": {
+      "title": "Work Experience",
+      "sub_title": "My professional journey so far."
     },
     "error": "An error occurred on the server.",
     "no_data": "No data available."
@@ -99,6 +111,7 @@
       "subtext": "Whether you have a project in mind, want to collaborate, or just want to say hi — my inbox is always open."
     },
     "form": {
+      "title": "Send Me a Message",
       "label": "Send a Message",
       "heading": "Send Me a Message",
       "input_name": "Name",
@@ -110,7 +123,27 @@
       "error": "Failed to send message. Please try again."
     },
     "social_media": {
-      "title": "Find me on"
+      "title": "Find me on",
+      "gmail": {
+        "title": "Stay in Touch",
+        "description": "Reach out via email for any inquiries or collaborations."
+      },
+      "instagram": {
+        "title": "Follow My Journey",
+        "description": "Stay updated with my latest posts and stories on Instagram."
+      },
+      "linkedin": {
+        "title": "Let's Connect",
+        "description": "Connect for collaboration or explore my professional experience."
+      },
+      "github": {
+        "title": "Explore the Code",
+        "description": "Explore the source code for all my projects on GitHub."
+      },
+      "facebook": {
+        "title": "Add Me on Facebook",
+        "description": "Connect with me on Facebook."
+      }
     }
   },
   "Footer": {

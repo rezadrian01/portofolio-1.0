@@ -1,17 +1,17 @@
-import Breakline from "@/common/components/elements/Breakline";
-
-import Introduction from "./Introduction";
-import SkillList from "./SkillList";
-// import BentoGrid from "./Bento/BentoGrid";
+import HeroSection from "./HeroSection";
+import AboutSnippetSection from "./AboutSnippetSection";
+import FeaturedProjectsSection from "./FeaturedProjectsSection";
+import TechStackSection from "./TechStackSection";
+import ContactCTASection from "./ContactCTASection";
 
 const Home = () => {
   return (
     <>
-      <Introduction />
-      <Breakline className="my-8" />
-      <SkillList />
-      {/* <Breakline className="my-8" /> */}
-      {/* <BentoGrid /> */}
+      <HeroSection />
+      <AboutSnippetSection />
+      <FeaturedProjectsSection />
+      <TechStackSection />
+      <ContactCTASection />
     </>
   );
 };
