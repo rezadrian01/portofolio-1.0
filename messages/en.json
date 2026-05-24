@@ -1,0 +1,136 @@
+{
+  "HomePage": {
+    "hero": {
+      "greeting": "Hi, I'm",
+      "tagline": "Building scalable web applications and exploring the intersection of software engineering and machine learning.",
+      "cta_projects": "View Projects",
+      "cta_cv": "Download CV"
+    },
+    "about_snippet": {
+      "label": "About Me",
+      "heading": "Who I Am",
+      "paragraph_1": "I'm a Computer Science student at Universitas Brawijaya with a passion for building full-stack web applications. I specialize in the MERN stack and Next.js, and I'm actively expanding into machine learning.",
+      "paragraph_2": "I love turning complex problems into clean, user-friendly solutions — whether that's a scalable REST API, a responsive UI, or a predictive ML model.",
+      "read_more": "More about me",
+      "stat_years": "Years Learning",
+      "stat_projects": "Projects Built",
+      "stat_certificates": "Certificates",
+      "stat_technologies": "Technologies"
+    },
+    "featured_projects": {
+      "label": "Selected Work",
+      "heading": "Featured Projects",
+      "cta": "See all projects"
+    },
+    "tech_stack": {
+      "label": "Tech Stack",
+      "heading": "Tools I Work With"
+    },
+    "contact_cta": {
+      "heading": "Let's Work Together",
+      "subtext": "Open to collaborations, freelance projects, and full-time opportunities. Feel free to reach out!",
+      "cta": "Send me a message"
+    },
+    "error": "An error occurred on the server.",
+    "no_data": "No data available."
+  },
+  "AboutPage": {
+    "title": "About",
+    "description": "A brief introduction to who I am, my experience, and my educational background.",
+    "bio": {
+      "label": "Introduction",
+      "heading": "About Me",
+      "paragraph_1": "I'm Ahmad Reza Adrian, a Computer Science student at Universitas Brawijaya, Malang. I'm passionate about building impactful digital products — from scalable web platforms to machine learning integrations.",
+      "paragraph_2": "My primary stack is the MERN stack combined with Next.js and TypeScript, but I'm always eager to explore new technologies. I believe clean code and good architecture are as important as working features.",
+      "paragraph_3": "Outside of coding, I enjoy problem-solving challenges on platforms like Codewars, contributing to open-source projects, and continuously learning through hands-on projects.",
+      "download_cv": "Download CV"
+    },
+    "experience": {
+      "label": "Experience",
+      "heading": "Work Experience",
+      "no_data": "No experience data available."
+    },
+    "education": {
+      "label": "Education",
+      "heading": "Education",
+      "no_data": "No education data available."
+    },
+    "certificates": {
+      "label": "Certificates",
+      "heading": "Certificates",
+      "view_credential": "View Credential",
+      "no_data": "No certificates data available."
+    },
+    "error": "An error occurred on the server.",
+    "no_data": "No data available."
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "description": "A showcase of my full-stack, frontend, and machine learning projects.",
+    "filter_all": "All",
+    "filter_fullstack": "Full-Stack",
+    "filter_frontend": "Frontend",
+    "filter_ml": "Machine Learning",
+    "view_project": "View Project",
+    "tech_stack": "Tech Stack",
+    "back_button": "Back",
+    "source_code_text": "Source Code",
+    "live_demo_text": "Live Demo",
+    "error": "An error occurred on the server.",
+    "no_data": "No projects available."
+  },
+  "AchievementsPage": {
+    "title": "Achievements",
+    "description": "Certificates, awards, and milestones from my academic and professional journey.",
+    "filter_all": "All",
+    "filter_certificate": "Certificate",
+    "filter_award": "Award",
+    "filter_competition": "Competition",
+    "error": "An error occurred on the server.",
+    "no_data": "No achievements available.",
+    "show_credential": "Show Credential"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "Let's get in touch. I'm always open to new opportunities and collaborations.",
+    "info": {
+      "label": "Contact Info",
+      "heading": "Get in Touch",
+      "subtext": "Whether you have a project in mind, want to collaborate, or just want to say hi — my inbox is always open."
+    },
+    "form": {
+      "label": "Send a Message",
+      "heading": "Send Me a Message",
+      "input_name": "Name",
+      "input_email": "Email",
+      "input_phone": "Phone Number (Optional)",
+      "input_message": "Message",
+      "button": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    },
+    "social_media": {
+      "title": "Find me on"
+    }
+  },
+  "Footer": {
+    "copyright_1": "COPYRIGHT ©",
+    "copyright_2": "Ahmad Reza Adrian. All rights reserved."
+  },
+  "LocaleSwitcher": {
+    "en": "🇺🇸",
+    "id": "🇮🇩",
+    "label": "Language"
+  },
+  "Navigation": {
+    "Home": "Home",
+    "About": "About",
+    "Projects": "Projects",
+    "Achievements": "Achievements",
+    "Contact": "Contact"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "button": "Take me home"
+  }
+}
