@@ -1,0 +1,169 @@
+{
+  "HomePage": {
+    "hero": {
+      "greeting": "Halo, saya",
+      "tagline": "Membangun API yang skalabel dan aplikasi web full-stack — dengan fokus yang terus berkembang pada desain sistem dan layanan cloud-native.",
+      "cta_projects": "Lihat Proyek",
+      "cta_cv": "Unduh CV"
+    },
+    "about_snippet": {
+      "label": "Tentang Saya",
+      "heading": "Siapa Saya",
+      "paragraph_1": "Saya mahasiswa Teknik Informatika di Universitas Negeri Malang dan Software Engineer di Intervyou.me. Saya mengkhususkan diri dalam pengembangan backend dengan NestJS, Node.js, dan PostgreSQL — serta membangun fitur full-stack saat diperlukan.",
+      "paragraph_2": "Saya suka mengubah masalah kompleks menjadi solusi yang bersih dan mudah dipelihara — baik itu REST API yang skalabel, layanan terintegrasi AI, maupun antarmuka frontend yang halus.",
+      "read_more": "Lebih lanjut",
+      "stat_years": "Tahun Pengalaman",
+      "stat_projects": "Proyek Dibuat",
+      "stat_certificates": "Sertifikat",
+      "stat_companies": "Perusahaan",
+      "stat_technologies": "Teknologi"
+    },
+    "featured_projects": {
+      "label": "Karya Pilihan",
+      "heading": "Proyek Unggulan",
+      "cta": "Lihat semua proyek"
+    },
+    "tech_stack": {
+      "label": "Tech Stack",
+      "heading": "Teknologi yang Saya Gunakan"
+    },
+    "contact_cta": {
+      "heading": "Mari Bekerja Sama",
+      "subtext": "Terbuka untuk kolaborasi, proyek freelance, dan kesempatan kerja penuh waktu. Jangan ragu untuk menghubungi saya!",
+      "cta": "Kirim pesan"
+    },
+    "error": "Terjadi kesalahan pada server.",
+    "no_data": "Tidak ada data tersedia."
+  },
+  "AboutPage": {
+    "title": "Tentang",
+    "description": "Backend engineer dengan kemampuan full-stack — pengalaman, keahlian, dan latar belakang pendidikan saya.",
+    "bio": {
+      "label": "Perkenalan",
+      "heading": "Tentang Saya",
+      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang. Saya bekerja sebagai Software Engineer di Intervyou.me, membangun layanan backend terintegrasi AI dan fitur full-stack untuk pengguna nyata.",
+      "paragraph_2": "Kekuatan utama saya adalah backend engineering — merancang RESTful API, bekerja dengan database seperti PostgreSQL dan MongoDB, serta mengintegrasikan kemampuan AI menggunakan Google Gemini API. Saya juga membangun pengalaman frontend dengan Next.js dan React saat proyek membutuhkannya.",
+      "paragraph_3": "Saya percaya bahwa kode yang terstruktur dengan baik dan desain sistem yang jelas sama pentingnya dengan pengiriman fitur. Saya terus mengeksplorasi pendekatan baru — saat ini tertarik pada desain sistem dan pengembangan cloud-native.",
+      "download_cv": "Unduh CV"
+    },
+    "experience": {
+      "label": "Pengalaman",
+      "heading": "Pengalaman Kerja",
+      "no_data": "Belum ada data pengalaman."
+    },
+    "education": {
+      "title": "Pendidikan",
+      "sub_title": "Latar belakang akademis saya.",
+      "label": "Pendidikan",
+      "heading": "Pendidikan",
+      "no_data": "Belum ada data pendidikan."
+    },
+    "certificates": {
+      "label": "Sertifikat",
+      "heading": "Sertifikat",
+      "view_credential": "Lihat Sertifikat",
+      "no_data": "Belum ada data sertifikat."
+    },
+    "resume": {
+      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang. Saya bekerja sebagai Software Engineer di Intervyou.me, membangun layanan backend terintegrasi AI dan fitur full-stack untuk pengguna nyata.",
+      "paragraph_2": "Kekuatan utama saya adalah backend engineering — merancang RESTful API, bekerja dengan database seperti PostgreSQL dan MongoDB, serta mengintegrasikan kemampuan AI menggunakan Google Gemini API. Saya juga membangun pengalaman frontend dengan Next.js dan React saat proyek membutuhkannya.",
+      "paragraph_3": "Saya percaya bahwa kode yang terstruktur dengan baik dan desain sistem yang jelas sama pentingnya dengan pengiriman fitur. Saya terus mengeksplorasi pendekatan baru — saat ini tertarik pada desain sistem dan pengembangan cloud-native.",
+      "paragraph_4": "Saya terbuka untuk peluang baru di mana saya dapat berkontribusi pada produk yang berdampak dan terus berkembang sebagai engineer."
+    },
+    "career": {
+      "title": "Pengalaman Kerja",
+      "sub_title": "Perjalanan profesional saya sejauh ini."
+    },
+    "error": "Terjadi kesalahan pada server.",
+    "no_data": "Tidak ada data tersedia."
+  },
+  "ProjectsPage": {
+    "title": "Proyek",
+    "description": "Kumpulan proyek full-stack, frontend, dan backend saya.",
+    "filter_all": "Semua",
+    "filter_fullstack": "Full-Stack",
+    "filter_frontend": "Frontend",
+    "filter_backend": "Backend",
+    "view_project": "Lihat Proyek",
+    "tech_stack": "Tech Stack",
+    "back_button": "Kembali",
+    "source_code_text": "Kode Sumber",
+    "live_demo_text": "Demo Langsung",
+    "error": "Terjadi kesalahan pada server.",
+    "no_data": "Tidak ada proyek tersedia."
+  },
+  "AchievementsPage": {
+    "title": "Pencapaian",
+    "description": "Sertifikat, penghargaan, dan pencapaian dari perjalanan akademik dan profesional saya.",
+    "filter_all": "Semua",
+    "filter_certificate": "Sertifikat",
+    "filter_award": "Penghargaan",
+    "filter_competition": "Kompetisi",
+    "error": "Terjadi kesalahan pada server.",
+    "no_data": "Tidak ada pencapaian tersedia.",
+    "show_credential": "Lihat Sertifikat"
+  },
+  "ContactPage": {
+    "title": "Kontak",
+    "description": "Mari terhubung. Saya selalu terbuka untuk peluang dan kolaborasi baru.",
+    "info": {
+      "label": "Info Kontak",
+      "heading": "Hubungi Saya",
+      "subtext": "Apakah Anda punya proyek yang ingin dikerjakan, ingin berkolaborasi, atau sekadar menyapa — kotak masuk saya selalu terbuka."
+    },
+    "form": {
+      "title": "Kirim Pesan",
+      "label": "Kirim Pesan",
+      "heading": "Kirim Pesan",
+      "input_name": "Nama",
+      "input_email": "Email",
+      "input_phone": "Nomor Telepon (Opsional)",
+      "input_message": "Pesan",
+      "button": "Kirim Pesan",
+      "success": "Pesan berhasil dikirim!",
+      "error": "Gagal mengirim pesan. Silakan coba lagi."
+    },
+    "social_media": {
+      "title": "Temukan saya di",
+      "gmail": {
+        "title": "Tetap Terhubung",
+        "description": "Hubungi saya melalui email untuk pertanyaan atau kolaborasi."
+      },
+      "instagram": {
+        "title": "Ikuti Perjalanan Saya",
+        "description": "Tetap update dengan postingan dan story terbaru saya di Instagram."
+      },
+      "linkedin": {
+        "title": "Mari Terhubung",
+        "description": "Terhubung untuk kolaborasi atau jelajahi pengalaman profesional saya."
+      },
+      "github": {
+        "title": "Jelajahi Kode",
+        "description": "Jelajahi kode sumber untuk semua proyek saya di GitHub."
+      },
+      "facebook": {
+        "title": "Tambahkan Saya di Facebook",
+        "description": "Terhubung dengan saya di Facebook."
+      }
+    }
+  },
+  "Footer": {
+    "copyright_1": "HAK CIPTA ©",
+    "copyright_2": "Ahmad Reza Adrian. Semua hak dilindungi."
+  },
+  "LocaleSwitcher": {
+    "en": "🇺🇸",
+    "id": "🇮🇩",
+    "label": "Bahasa"
+  },
+  "Navigation": {
+    "Home": "Beranda",
+    "About": "Tentang",
+    "Projects": "Proyek",
+    "Contact": "Kontak"
+  },
+  "NotFoundPage": {
+    "title": "Halaman tidak ditemukan",
+    "button": "Bawa saya ke beranda"
+  }
+}
