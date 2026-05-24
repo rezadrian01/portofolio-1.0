@@ -8,7 +8,7 @@ import { useTranslations } from "next-intl";
 import { BsGithub, BsBoxArrowUpRight } from "react-icons/bs";
 
 import EmptyState from "@/common/components/elements/EmptyState";
-import GlareHover from "@/common/components/elements/GlareHover";
+import SpotlightCard from "@/common/components/elements/SpotlightCard";
 import { PROJECTS, type ProjectCategory, type ProjectEntry } from "@/common/constants/projects";
 
 const FILTERS: Array<{ label: string; key: string }> = [
@@ -61,15 +61,10 @@ const Projects = () => {
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.25, delay: i * 0.05 }}
               >
-                <GlareHover
-                  width="100%"
-                  height="auto"
-                  background="transparent"
-                  borderRadius="12px"
-                  borderColor="transparent"
-                  className="!border-0"
+                <SpotlightCard
+                  spotlightColor="rgba(251, 228, 0, 0.12)"
+                  className="overflow-hidden"
                 >
-                  <div className="w-full overflow-hidden rounded-xl border border-neutral-200 bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900">
                     {/* Thumbnail */}
                     <div className="relative h-44 w-full bg-neutral-200 dark:bg-neutral-800">
                       <Image
@@ -135,9 +130,8 @@ const Projects = () => {
                           </a>
                         )}
                       </div>
-                    </div>
                   </div>
-                </GlareHover>
+                </SpotlightCard>
               </motion.div>
             ))}
           </AnimatePresence>

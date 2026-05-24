@@ -1,5 +1,4 @@
 import NextTopLoader from "nextjs-toploader";
-import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
@@ -59,13 +58,7 @@ const RootLayout = async ({
 
   return (
     <html lang={locale} suppressHydrationWarning={true}>
-      <head>
-        <Script
-          defer
-          src="https://cloud.umami.is/script.js"
-          data-website-id="91c868c5-2a89-4a1d-b292-56c40ea30137"
-        />
-      </head>
+      <head />
       <body className={inter.className}>
         <NextTopLoader
           color="#fbe400"
