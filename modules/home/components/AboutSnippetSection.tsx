@@ -8,9 +8,9 @@ import SectionHeading from "@/common/components/elements/SectionHeading";
 import AnimateCounter from "@/common/components/elements/AnimateCounter";
 
 const STATS = [
-  { value: 2, suffix: "+", labelKey: "stat_years" },
+  { value: 1, suffix: "+", labelKey: "stat_years" },
   { value: 10, suffix: "+", labelKey: "stat_projects" },
-  { value: 5, suffix: "+", labelKey: "stat_certificates" },
+  { value: 4, suffix: "+", labelKey: "stat_companies" },
   { value: 15, suffix: "+", labelKey: "stat_technologies" },
 ];
 

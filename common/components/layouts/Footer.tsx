@@ -44,7 +44,6 @@ const Footer = () => {
             className="font-semibold text-lg text-neutral-900 dark:text-neutral-100 hover:text-primary transition-colors"
           >
             {PERSONAL.shortName}
-            <span className="text-primary">.</span>
           </Link>
 
           {/* Nav links */}

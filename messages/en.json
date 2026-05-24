@@ -2,19 +2,20 @@
   "HomePage": {
     "hero": {
       "greeting": "Hi, I'm",
-      "tagline": "Building scalable web applications and exploring the intersection of software engineering and machine learning.",
+      "tagline": "Building scalable APIs and full-stack web applications — with a growing focus on system design and cloud-native services.",
       "cta_projects": "View Projects",
       "cta_cv": "Download CV"
     },
     "about_snippet": {
       "label": "About Me",
       "heading": "Who I Am",
-      "paragraph_1": "I'm a Computer Science student at Universitas Brawijaya with a passion for building full-stack web applications. I specialize in the MERN stack and Next.js, and I'm actively expanding into machine learning.",
-      "paragraph_2": "I love turning complex problems into clean, user-friendly solutions — whether that's a scalable REST API, a responsive UI, or a predictive ML model.",
+      "paragraph_1": "I'm an Informatics Engineering student at Universitas Negeri Malang and Software Engineer at Intervyou.me. I specialize in backend development with NestJS, Node.js, and PostgreSQL — and build full-stack features when needed.",
+      "paragraph_2": "I love turning complex problems into clean, maintainable solutions — whether that's a scalable REST API, an AI-integrated service, or a polished front-end experience.",
       "read_more": "More about me",
-      "stat_years": "Years Learning",
+      "stat_years": "Years Experience",
       "stat_projects": "Projects Built",
       "stat_certificates": "Certificates",
+      "stat_companies": "Companies Worked With",
       "stat_technologies": "Technologies"
     },
     "featured_projects": {
@@ -36,13 +37,13 @@
   },
   "AboutPage": {
     "title": "About",
-    "description": "A brief introduction to who I am, my experience, and my educational background.",
+    "description": "Backend engineer with full-stack capabilities — my experience, skills, and educational background.",
     "bio": {
       "label": "Introduction",
       "heading": "About Me",
-      "paragraph_1": "I'm Ahmad Reza Adrian, a Computer Science student at Universitas Brawijaya, Malang. I'm passionate about building impactful digital products — from scalable web platforms to machine learning integrations.",
-      "paragraph_2": "My primary stack is the MERN stack combined with Next.js and TypeScript, but I'm always eager to explore new technologies. I believe clean code and good architecture are as important as working features.",
-      "paragraph_3": "Outside of coding, I enjoy problem-solving challenges on platforms like Codewars, contributing to open-source projects, and continuously learning through hands-on projects.",
+      "paragraph_1": "I'm Ahmad Reza Adrian, an Informatics Engineering student at Universitas Negeri Malang. I work as a Software Engineer at Intervyou.me, building AI-integrated backend services and full-stack features for real users.",
+      "paragraph_2": "My core strength is backend engineering — designing RESTful APIs, working with databases like PostgreSQL and MongoDB, and integrating AI capabilities using the Google Gemini API. I also build front-end experiences with Next.js and React when the project calls for it.",
+      "paragraph_3": "I believe well-structured code and clear system design are as important as shipping features. I'm always exploring new approaches — currently interested in system design and cloud-native development.",
       "download_cv": "Download CV"
     },
     "experience": {
@@ -64,10 +65,10 @@
       "no_data": "No certificates data available."
     },
     "resume": {
-      "paragraph_1": "I'm Ahmad Reza Adrian, a Computer Science student at Universitas Brawijaya, Malang. I'm passionate about building impactful digital products — from scalable web platforms to machine learning integrations.",
-      "paragraph_2": "My primary stack is the MERN stack combined with Next.js and TypeScript, but I'm always eager to explore new technologies. I believe clean code and good architecture are as important as working features.",
-      "paragraph_3": "Outside of coding, I enjoy problem-solving challenges on platforms like Codewars, contributing to open-source projects, and continuously learning through hands-on projects.",
-      "paragraph_4": "I'm currently seeking opportunities to grow as a developer and contribute to meaningful projects."
+      "paragraph_1": "I'm Ahmad Reza Adrian, an Informatics Engineering student at Universitas Negeri Malang. I work as a Software Engineer at Intervyou.me, building AI-integrated backend services and full-stack features for real users.",
+      "paragraph_2": "My core strength is backend engineering — designing RESTful APIs, working with databases like PostgreSQL and MongoDB, and integrating AI capabilities using the Google Gemini API. I also build front-end experiences with Next.js and React when the project calls for it.",
+      "paragraph_3": "I believe well-structured code and clear system design are as important as shipping features. I'm always exploring new approaches — currently interested in system design and cloud-native development.",
+      "paragraph_4": "I'm open to new opportunities where I can contribute to impactful products and continue growing as an engineer."
     },
     "career": {
       "title": "Work Experience",
@@ -78,11 +79,11 @@
   },
   "ProjectsPage": {
     "title": "Projects",
-    "description": "A showcase of my full-stack, frontend, and machine learning projects.",
+    "description": "A showcase of my full-stack, frontend, and backend projects.",
     "filter_all": "All",
     "filter_fullstack": "Full-Stack",
     "filter_frontend": "Frontend",
-    "filter_ml": "Machine Learning",
+    "filter_backend": "Backend",
     "view_project": "View Project",
     "tech_stack": "Tech Stack",
     "back_button": "Back",
@@ -159,7 +160,6 @@
     "Home": "Home",
     "About": "About",
     "Projects": "Projects",
-    "Achievements": "Achievements",
     "Contact": "Contact"
   },
   "NotFoundPage": {

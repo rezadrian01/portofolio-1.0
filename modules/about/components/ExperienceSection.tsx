@@ -69,7 +69,7 @@ const ExperienceSection = () => {
                         <span>{item.location}</span>
                       </div>
                     </div>
-                    <div className="text-right text-xs text-neutral-500 dark:text-neutral-400">
+                    <div className="text-left sm:text-right text-xs text-neutral-500 dark:text-neutral-400">
                       <div>
                         {start} — {end}
                       </div>

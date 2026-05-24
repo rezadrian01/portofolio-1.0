@@ -41,8 +41,8 @@ export default function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-white/80 dark:bg-dark/80 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-800 shadow-sm"
+        scrolled || menuOpen
+          ? "bg-white/95 dark:bg-dark/95 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-800 shadow-sm"
           : "bg-transparent"
       }`}
     >
@@ -53,7 +53,6 @@ export default function Navbar() {
           className="font-semibold text-lg text-neutral-900 dark:text-neutral-100 hover:text-primary transition-colors duration-200"
         >
           {PERSONAL.shortName}
-          <span className="text-primary">.</span>
         </Link>
 
         {/* Desktop nav links */}
@@ -102,11 +101,11 @@ export default function Navbar() {
       <AnimatePresence>
         {menuOpen && (
           <motion.div
-            initial={{ opacity: 0, y: -8 }}
+            initial={{ opacity: 0, y: -4 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
+            exit={{ opacity: 0, y: -4 }}
             transition={{ duration: 0.18 }}
-            className="md:hidden bg-white dark:bg-dark border-b border-neutral-200 dark:border-neutral-800 px-4 pb-4"
+            className="md:hidden absolute top-16 left-0 right-0 bg-white/95 dark:bg-dark/95 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-800 shadow-md px-4 pb-4"
           >
             <ul className="flex flex-col gap-1 pt-2">
               {visibleItems.map((item) => (

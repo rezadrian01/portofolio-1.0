@@ -4,7 +4,6 @@ import {
   BiCollection as ProjectIcon,
   BiBook as ContactIcon,
 } from "react-icons/bi";
-import { PiCertificate as AchievementIcon } from "react-icons/pi";
 
 import { MenuItemProps } from "../types/menu";
 
@@ -34,14 +33,6 @@ export const MENU_ITEMS: MenuItemProps[] = [
     isShow: true,
     isExternal: false,
     eventName: "Pages: Projects",
-  },
-  {
-    title: "Achievements",
-    href: "/achievements",
-    icon: <AchievementIcon size={iconSize} />,
-    isShow: true,
-    isExternal: false,
-    eventName: "Pages: Achievements",
   },
   {
     title: "Contact",

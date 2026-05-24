@@ -18,8 +18,8 @@ const HeroSection = () => {
   const t = useTranslations("HomePage.hero");
 
   return (
-    <section className="relative flex min-h-screen items-center">
-      <div className="flex w-full flex-col items-center gap-12 md:flex-row md:justify-between">
+    <section className="relative flex min-h-[calc(100vh-6rem)] items-center">
+      <div className="flex w-full flex-col-reverse items-center gap-8 md:flex-row md:justify-between md:gap-12">
         {/* Text Content */}
         <motion.div
           className="flex flex-col gap-5 md:max-w-xl"
@@ -52,7 +52,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/projects"
-              className="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-neutral-900 transition-opacity hover:opacity-80"
+              className="rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-80"
             >
               {t("cta_projects")}
             </Link>
@@ -99,12 +99,12 @@ const HeroSection = () => {
 
         {/* Profile Photo */}
         <motion.div
-          className="relative hidden md:block"
+          className="relative flex justify-center md:block"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <div className="relative h-72 w-72 overflow-hidden rounded-full border-4 border-primary/30 ring-4 ring-primary/10 lg:h-80 lg:w-80">
+          <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-primary/30 ring-4 ring-primary/10 md:h-72 md:w-72 lg:h-80 lg:w-80">
             <Image
               src="/images/reza.jpg"
               alt={PERSONAL.name}

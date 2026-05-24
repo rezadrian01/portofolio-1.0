@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* green-600 — readable on light backgrounds */
+  --color-primary: 22 163 74;
+}
+
+.dark {
+  /* green-800 — pops nicely on dark backgrounds */
+  --color-primary: 22 101 52;
+}
+
 @layer base {
   ::-webkit-scrollbar {
     width: 4px;
