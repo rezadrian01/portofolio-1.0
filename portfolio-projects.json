@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "owner": "Ahmad Reza Adrian",
+    "description": "Portfolio project data formatted for LinkedIn Projects and similar profile platforms.",
+    "fields": {
+      "title": "Max 70 characters",
+      "role": "Optional. Max 100 characters",
+      "description": "Max 600 characters. Covers goals, solution, and impact.",
+      "skills_and_deliverables": "Array of skills, technologies, and key outputs"
+    }
+  },
+  "projects": [
+    {
+      "title": "Intervyou",
+      "role": "Software Engineer · Full-Stack",
+      "description": "AI-powered interview preparation platform trusted by 3,000+ users. Built and maintained RESTful backend APIs using NestJS and TypeScript for CV analysis, ATS score optimization, and mock interview features. Integrated Google Gemini API for intelligent AI-driven interview feedback. Also contributed to the frontend with Next.js. The platform helps job seekers in Indonesia land jobs faster through structured, AI-guided preparation.",
+      "skills_and_deliverables": [
+        "NestJS",
+        "TypeScript",
+        "Next.js",
+        "PostgreSQL",
+        "MySQL",
+        "Google Gemini API",
+        "RESTful API Design",
+        "AI Integration",
+        "Backend Development",
+        "Full-Stack Development"
+      ],
+      "url": "https://intervyou.me",
+      "github_url": null,
+      "category": "Full-Stack"
+    },
+    {
+      "title": "Transpo",
+      "role": "Full Stack Developer",
+      "description": "Online transportation booking platform serving the Malang Raya area, connecting passengers with affordable inter-city travel. Developed full-stack features for the logistics and booking management system. Built backend services with Node.js, integrated Google Maps API for route visualization, and managed relational data using Prisma ORM and MySQL. Collaborated on the React.js frontend to deliver a seamless user booking experience.",
+      "skills_and_deliverables": [
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "MySQL",
+        "Prisma ORM",
+        "Google Maps API",
+        "TailwindCSS",
+        "RESTful API Design",
+        "Full-Stack Development",
+        "Transportation & Logistics System"
+      ],
+      "url": "https://transpo.id",
+      "github_url": null,
+      "category": "Full-Stack"
+    },
+    {
+      "title": "Simakin",
+      "role": "Full Stack Developer",
+      "description": "AI-powered Quran memorization platform with a personal AI coach providing real-time feedback on tajweed, makhroj, and fluency. Built with Remix for a fast, full-stack experience and deployed on Google Cloud Platform. Integrated Google Gemini API for intelligent audio and text-based feedback. Features include streak tracking to motivate consistent daily practice, helping users improve recitation quality systematically.",
+      "skills_and_deliverables": [
+        "Remix",
+        "TypeScript",
+        "MySQL",
+        "Prisma ORM",
+        "Google Gemini API",
+        "Google Cloud Platform",
+        "TailwindCSS",
+        "AI Integration",
+        "Full-Stack Development",
+        "EdTech Platform"
+      ],
+      "url": null,
+      "github_url": null,
+      "category": "Full-Stack"
+    },
+    {
+      "title": "Safera",
+      "role": "Full Stack Developer",
+      "description": "Streaming donation platform designed for Indonesian content creators, offering transparent fees, instant bank transfers, and QRIS payment support. Built RESTful backend APIs with NestJS and TypeScript, and developed frontend features with Next.js. Integrated Google Gemini API for AI-powered gambling content moderation to ensure a safe creator environment. Enables creators to monetize their content reliably and transparently.",
+      "skills_and_deliverables": [
+        "NestJS",
+        "Next.js",
+        "TypeScript",
+        "MySQL",
+        "Google Gemini API",
+        "Payment Integration (QRIS)",
+        "RESTful API Design",
+        "AI Content Moderation",
+        "Full-Stack Development"
+      ],
+      "url": null,
+      "github_url": null,
+      "category": "Full-Stack"
+    },
+    {
+      "title": "PT Sekawan Pitu — Company Profile & E-Commerce",
+      "role": "Freelance Full Stack Developer",
+      "description": "Company profile and e-commerce website for a free-range livestock farm in Sukabumi, West Java. Built with Next.js and TypeScript, the platform showcases the farm's products — fresh eggs, meat, and dairy — and supports same-day local delivery orders. Delivered a clean, mobile-responsive design using TailwindCSS to help the business establish an online presence and reach local customers effectively.",
+      "skills_and_deliverables": [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "E-Commerce",
+        "Frontend Development",
+        "Responsive Web Design",
+        "Freelance Client Project"
+      ],
+      "url": "https://pt-sekawan-pitu.vercel.app",
+      "github_url": null,
+      "category": "Full-Stack"
+    },
+    {
+      "title": "BIPA — Indonesian Language Learning Management System",
+      "role": "Full Stack Developer",
+      "description": "Learning Management System for structured Indonesian language teaching targeting foreign speakers (Bahasa Indonesia bagi Penutur Asing). Built a full-stack application using Laravel for the backend and React.js with TypeScript for the frontend. Features include course management, interactive lessons, and student progress tracking. Designed with a clean UI using TailwindCSS and managed relational data with MySQL and Eloquent ORM.",
+      "skills_and_deliverables": [
+        "Laravel",
+        "React.js",
+        "TypeScript",
+        "MySQL",
+        "Eloquent ORM",
+        "TailwindCSS",
+        "Learning Management System (LMS)",
+        "Full-Stack Development"
+      ],
+      "url": null,
+      "github_url": null,
+      "category": "Full-Stack"
+    },
+    {
+      "title": "LBC Laundry Management System",
+      "role": "Full Stack Developer",
+      "description": "Full-stack laundry management system for a small laundry business. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), the application enables business owners to manage customer orders, track wash status, and process payments through a real-time dashboard. Delivered a clean and intuitive interface with TailwindCSS, improving operational efficiency and reducing manual record-keeping for the business.",
+      "skills_and_deliverables": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "TailwindCSS",
+        "MERN Stack",
+        "Real-Time Dashboard",
+        "Full-Stack Development"
+      ],
+      "url": null,
+      "github_url": null,
+      "category": "Full-Stack"
+    },
+    {
+      "title": "Kasirku — Point of Sale App",
+      "role": "Full Stack Developer",
+      "description": "Point-of-sale and cashier management web application built for small businesses. Features include product catalog management, transaction processing, customer records, and sales reporting with visual analytics. Developed with React.js on the frontend and Laravel with MySQL on the backend. Helps small shop owners manage daily sales digitally, replacing manual cashier logs and enabling better financial tracking.",
+      "skills_and_deliverables": [
+        "React.js",
+        "Laravel",
+        "MySQL",
+        "TailwindCSS",
+        "Point of Sale (POS)",
+        "Sales Reporting",
+        "Full-Stack Development"
+      ],
+      "url": null,
+      "github_url": "https://github.com/rezadrian01/Kasirku",
+      "category": "Full-Stack"
+    },
+    {
+      "title": "Book Worm — Online Bookstore",
+      "role": "Full Stack Developer",
+      "description": "Full-stack online bookstore application built with Next.js and MySQL. Features include user authentication, book catalog with search and filtering, a shopping cart, order management, and an admin panel for inventory control. Built as a portfolio project to practice end-to-end web application development — from database design and API development to a responsive frontend interface using TailwindCSS.",
+      "skills_and_deliverables": [
+        "Next.js",
+        "MySQL",
+        "TailwindCSS",
+        "User Authentication",
+        "E-Commerce",
+        "Admin Panel",
+        "Full-Stack Development"
+      ],
+      "url": null,
+      "github_url": null,
+      "category": "Full-Stack"
+    },
+    {
+      "title": "SiJawi — Javanese Cultural Education Platform",
+      "role": "Frontend Developer",
+      "description": "Frontend web application for a Javanese cultural education platform, built with React.js and TypeScript using Vite. The platform features interactive lessons and quizzes designed to teach users about Javanese language, culture, and traditions. Styled with TailwindCSS for a responsive and accessible interface. Developed as part of a competition or academic project focused on preserving local Indonesian culture through technology.",
+      "skills_and_deliverables": [
+        "React.js",
+        "TypeScript",
+        "TailwindCSS",
+        "Vite",
+        "Frontend Development",
+        "Responsive Web Design",
+        "EdTech / Cultural Education"
+      ],
+      "url": null,
+      "github_url": null,
+      "category": "Frontend"
+    },
+    {
+      "title": "MERN Online Shop",
+      "role": "Full Stack Developer",
+      "description": "Full-featured e-commerce platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js) as a portfolio project. Includes product listing and management, user authentication, shopping cart functionality, order tracking, and payment integration. Demonstrates proficiency in building complete full-stack applications from database design through REST API development to a React.js frontend.",
+      "skills_and_deliverables": [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "MERN Stack",
+        "User Authentication",
+        "E-Commerce",
+        "RESTful API Design",
+        "Full-Stack Development"
+      ],
+      "url": null,
+      "github_url": null,
+      "category": "Full-Stack"
+    }
+  ]
+}
