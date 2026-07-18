@@ -2,15 +2,15 @@
   "HomePage": {
     "hero": {
       "greeting": "Halo, saya",
-      "tagline": "Membangun API yang skalabel dan aplikasi web full-stack — dengan fokus yang terus berkembang pada desain sistem dan layanan cloud-native.",
+      "tagline": "Saya membangun API yang skalabel dan aplikasi web full-stack, dengan fokus yang terus berkembang pada desain sistem dan layanan cloud-native.",
       "cta_projects": "Lihat Proyek",
       "cta_cv": "Unduh CV"
     },
     "about_snippet": {
       "label": "Tentang Saya",
       "heading": "Siapa Saya",
-      "paragraph_1": "Saya mahasiswa Teknik Informatika di Universitas Negeri Malang dan Software Engineer di Intervyou.me. Saya mengkhususkan diri dalam pengembangan backend dengan NestJS, Node.js, dan PostgreSQL — serta membangun fitur full-stack saat diperlukan.",
-      "paragraph_2": "Saya suka mengubah masalah kompleks menjadi solusi yang bersih dan mudah dipelihara — baik itu REST API yang skalabel, layanan terintegrasi AI, maupun antarmuka frontend yang halus.",
+      "paragraph_1": "Saya mahasiswa Teknik Informatika di Universitas Negeri Malang dan Software Engineer di Intervyou.me. Saya berfokus pada pengembangan backend dengan NestJS, Node.js, dan PostgreSQL, serta membangun fitur full-stack saat dibutuhkan.",
+      "paragraph_2": "Saya senang mengubah masalah kompleks menjadi solusi yang bersih dan mudah dipelihara, baik itu REST API yang skalabel, layanan terintegrasi AI, maupun antarmuka frontend yang rapi.",
       "read_more": "Lebih lanjut",
       "stat_years": "Tahun Pengalaman",
       "stat_projects": "Proyek Dibuat",
@@ -29,7 +29,7 @@
     },
     "contact_cta": {
       "heading": "Mari Bekerja Sama",
-      "subtext": "Terbuka untuk kolaborasi, proyek freelance, dan kesempatan kerja penuh waktu. Jangan ragu untuk menghubungi saya!",
+      "subtext": "Saya terbuka untuk kolaborasi, proyek freelance, dan peran full-time. Mari membangun sesuatu bersama.",
       "cta": "Kirim pesan"
     },
     "error": "Terjadi kesalahan pada server.",
@@ -37,13 +37,13 @@
   },
   "AboutPage": {
     "title": "Tentang",
-    "description": "Backend engineer dengan kemampuan full-stack — pengalaman, keahlian, dan latar belakang pendidikan saya.",
+    "description": "Backend engineer dengan kemampuan full-stack. Inilah pengalaman, keahlian, dan latar belakang pendidikan saya.",
     "bio": {
       "label": "Perkenalan",
       "heading": "Tentang Saya",
-      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang. Saya bekerja sebagai Software Engineer di Intervyou.me, membangun layanan backend terintegrasi AI dan fitur full-stack untuk pengguna nyata.",
-      "paragraph_2": "Kekuatan utama saya adalah backend engineering — merancang RESTful API, bekerja dengan database seperti PostgreSQL dan MongoDB, serta mengintegrasikan kemampuan AI menggunakan Google Gemini API. Saya juga membangun pengalaman frontend dengan Next.js dan React saat proyek membutuhkannya.",
-      "paragraph_3": "Saya percaya bahwa kode yang terstruktur dengan baik dan desain sistem yang jelas sama pentingnya dengan pengiriman fitur. Saya terus mengeksplorasi pendekatan baru — saat ini tertarik pada desain sistem dan pengembangan cloud-native.",
+      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang dan Software Engineer di Intervyou.me, tempat saya membangun layanan backend terintegrasi AI dan fitur full-stack untuk pengguna nyata.",
+      "paragraph_2": "Kekuatan utama saya adalah backend engineering: merancang RESTful API, mengelola data dengan PostgreSQL dan MongoDB, serta mengintegrasikan AI melalui Google Gemini API. Saat proyek membutuhkannya, saya juga membangun antarmuka frontend dengan Next.js dan React.",
+      "paragraph_3": "Saya percaya kode yang bersih dan terstruktur serta desain sistem yang jelas sama pentingnya dengan pengiriman fitur. Saat ini saya berfokus memperdalam kemampuan desain sistem dan pengembangan cloud-native.",
       "download_cv": "Unduh CV"
     },
     "experience": {
@@ -65,9 +65,9 @@
       "no_data": "Belum ada data sertifikat."
     },
     "resume": {
-      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang. Saya bekerja sebagai Software Engineer di Intervyou.me, membangun layanan backend terintegrasi AI dan fitur full-stack untuk pengguna nyata.",
-      "paragraph_2": "Kekuatan utama saya adalah backend engineering — merancang RESTful API, bekerja dengan database seperti PostgreSQL dan MongoDB, serta mengintegrasikan kemampuan AI menggunakan Google Gemini API. Saya juga membangun pengalaman frontend dengan Next.js dan React saat proyek membutuhkannya.",
-      "paragraph_3": "Saya percaya bahwa kode yang terstruktur dengan baik dan desain sistem yang jelas sama pentingnya dengan pengiriman fitur. Saya terus mengeksplorasi pendekatan baru — saat ini tertarik pada desain sistem dan pengembangan cloud-native.",
+      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang dan Software Engineer di Intervyou.me, tempat saya membangun layanan backend terintegrasi AI dan fitur full-stack untuk pengguna nyata.",
+      "paragraph_2": "Kekuatan utama saya adalah backend engineering: merancang RESTful API, mengelola data dengan PostgreSQL dan MongoDB, serta mengintegrasikan AI melalui Google Gemini API. Saat proyek membutuhkannya, saya juga membangun antarmuka frontend dengan Next.js dan React.",
+      "paragraph_3": "Saya percaya kode yang bersih dan terstruktur serta desain sistem yang jelas sama pentingnya dengan pengiriman fitur. Saat ini saya berfokus memperdalam kemampuan desain sistem dan pengembangan cloud-native.",
       "paragraph_4": "Saya terbuka untuk peluang baru di mana saya dapat berkontribusi pada produk yang berdampak dan terus berkembang sebagai engineer."
     },
     "career": {
@@ -79,7 +79,7 @@
   },
   "ProjectsPage": {
     "title": "Proyek",
-    "description": "Kumpulan proyek full-stack, frontend, dan backend saya.",
+    "description": "Kumpulan proyek full-stack, front-end, dan backend yang telah saya buat.",
     "filter_all": "Semua",
     "filter_fullstack": "Full-Stack",
     "filter_frontend": "Frontend",
@@ -110,7 +110,7 @@
     "info": {
       "label": "Info Kontak",
       "heading": "Hubungi Saya",
-      "subtext": "Apakah Anda punya proyek yang ingin dikerjakan, ingin berkolaborasi, atau sekadar menyapa — kotak masuk saya selalu terbuka."
+      "subtext": "Apakah Anda punya proyek yang ingin dikerjakan, ingin berkolaborasi, atau sekadar menyapa, kotak masuk saya selalu terbuka."
     },
     "form": {
       "title": "Kirim Pesan",
