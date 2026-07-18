@@ -1,11 +1,11 @@
 "use client";
 
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { BsArrowRight } from "react-icons/bs";
 
 import SectionHeading from "@/common/components/elements/SectionHeading";
 import AnimateCounter from "@/common/components/elements/AnimateCounter";
+import { Link } from "@/i18n/navigation";
 
 const STATS = [
   { value: 1, suffix: "+", labelKey: "stat_years" },
