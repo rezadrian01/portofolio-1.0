@@ -1,17 +1,19 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { BsGithub, BsBoxArrowUpRight } from "react-icons/bs";
 
 import EmptyState from "@/common/components/elements/EmptyState";
 import SpotlightCard from "@/common/components/elements/SpotlightCard";
+import ProjectModal from "@/common/components/elements/ProjectModal";
 import { PROJECTS, type ProjectEntry } from "@/common/constants/projects";
 
 const Projects = () => {
   const t = useTranslations("ProjectsPage");
+  const [selected, setSelected] = useState<ProjectEntry | null>(null);
 
   return (
     <div className="space-y-6">
@@ -25,6 +27,16 @@ const Projects = () => {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.25, delay: i * 0.05 }}
+              onClick={() => setSelected(project)}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  setSelected(project);
+                }
+              }}
+              className="cursor-pointer"
             >
               <SpotlightCard
                 spotlightColor="rgba(22, 101, 52, 0.12)"
@@ -77,6 +89,7 @@ const Projects = () => {
                         href={project.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
                         className="flex items-center gap-1.5 text-xs text-neutral-500 transition-colors hover:text-primary dark:text-neutral-400"
                       >
                         <BsGithub size={15} />
@@ -88,6 +101,7 @@ const Projects = () => {
                         href={project.liveUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
                         className="flex items-center gap-1.5 text-xs text-neutral-500 transition-colors hover:text-primary dark:text-neutral-400"
                       >
                         <BsBoxArrowUpRight size={13} />
@@ -101,6 +115,8 @@ const Projects = () => {
           ))}
         </div>
       )}
+
+      <ProjectModal project={selected} onClose={() => setSelected(null)} />
     </div>
   );
 };

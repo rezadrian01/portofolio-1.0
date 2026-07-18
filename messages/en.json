@@ -89,6 +89,7 @@
     "back_button": "Back",
     "source_code_text": "Source Code",
     "live_demo_text": "Live Demo",
+    "close": "Close",
     "error": "An error occurred on the server.",
     "no_data": "No projects available."
   },

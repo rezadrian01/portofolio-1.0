@@ -89,6 +89,7 @@
     "back_button": "Kembali",
     "source_code_text": "Kode Sumber",
     "live_demo_text": "Demo Langsung",
+    "close": "Tutup",
     "error": "Terjadi kesalahan pada server.",
     "no_data": "Tidak ada proyek tersedia."
   },
