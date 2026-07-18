@@ -50,7 +50,7 @@ Intensive bootcamp covering front-end and back-end development with JavaScript a
 
 ## Projects
 
-**Intervyou** (Full-Stack): AI-powered interview preparation platform with CV analysis, ATS optimization, and mock interview features. Trusted by 3,000+ users. Tech: Next.js, MySQL, PostgreSQL, Google Gemini API, TypeScript. Live: https://intervyou.me
+**Intervyou** (Full-Stack): AI-powered interview preparation platform with CV analysis, ATS optimization, and mock interview features. Trusted by 4,800+ users. Tech: Next.js, MySQL, PostgreSQL, Google Gemini API, TypeScript. Live: https://intervyou.me
 
 **Transpo** (Full-Stack): Online transportation booking platform for the Malang Raya area connecting passengers with inter-city travel services. Tech: Next.js, TypeScript, MySQL, Google Maps API, Prisma, TailwindCSS. Live: https://transpo.id
 

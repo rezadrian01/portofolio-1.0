@@ -17,7 +17,7 @@ export const PROJECTS: ProjectEntry[] = [
     slug: "intervyou",
     title: "Intervyou",
     description:
-      "AI-powered interview preparation platform with CV analysis, ATS optimization, and mock interview features trusted by 3,000+ users.",
+      "AI-powered interview preparation platform with CV analysis, ATS optimization, and mock interview features trusted by 4,800+ users.",
     category: "Full-Stack",
     techStack: ["Next.js", "MySQL", "PostgreSQL", "Google Gemini API", "TypeScript"],
     thumbnail: "/images/projects/intervyou.png",
