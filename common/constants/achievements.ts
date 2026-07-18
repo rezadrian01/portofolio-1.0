@@ -37,7 +37,7 @@ export const ACHIEVEMENTS: Achievement[] = [
       "In-depth course covering App Router, server components, data fetching, and deployment.",
   },
   {
-    name: "3rd Place — Web Development Hackathon",
+    name: "3rd Place, Web Development Hackathon",
     type: "Competition",
     issuer: "Universitas Brawijaya",
     date: "Nov 2023",
@@ -45,7 +45,7 @@ export const ACHIEVEMENTS: Achievement[] = [
       "Built a full-stack task management app within 24 hours and placed 3rd among 40 teams.",
   },
   {
-    name: "Best Project — Informatics Capstone",
+    name: "Best Project, Computer Science Capstone",
     type: "Award",
     issuer: "Universitas Brawijaya",
     date: "Jun 2024",
