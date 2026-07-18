@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { HiX } from "react-icons/hi";
@@ -54,7 +53,7 @@ const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
               role="dialog"
               aria-modal="true"
               aria-label={project.title}
-              className="relative z-10 max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-2xl border border-neutral-200 bg-white shadow-xl dark:border-neutral-800 dark:bg-neutral-900"
+              className="relative z-10 flex max-h-[90vh] w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-xl dark:border-neutral-800 dark:bg-neutral-900"
               initial={{ opacity: 0, scale: 0.96, y: 12 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.96, y: 12 }}
@@ -68,18 +67,18 @@ const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
                 <HiX size={18} />
               </button>
 
-              {/* Thumbnail */}
-              <div className="relative h-56 w-full bg-neutral-200 dark:bg-neutral-800">
-                <Image
-                  src={project.thumbnail}
-                  alt={project.title}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 672px"
-                />
-              </div>
+              <div className="overflow-y-auto">
+                {/* Thumbnail (full image at natural aspect ratio, never cropped) */}
+                <div className="w-full bg-neutral-100 dark:bg-neutral-950">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={project.thumbnail}
+                    alt={project.title}
+                    className="h-auto w-full"
+                  />
+                </div>
 
-              <div className="space-y-4 p-6">
+                <div className="space-y-4 p-6">
                 <span className="inline-block w-fit rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
                   {project.category}
                 </span>
@@ -132,6 +131,7 @@ const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
                     )}
                   </div>
                 )}
+                </div>
               </div>
             </motion.div>
           </motion.div>
