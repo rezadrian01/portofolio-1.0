@@ -9,7 +9,7 @@
     "about_snippet": {
       "label": "About Me",
       "heading": "Who I Am",
-      "paragraph_1": "I'm a Computer Science student at Universitas Negeri Malang and a Software Engineer at Intervyou.me. I focus on backend development with NestJS, Node.js, and PostgreSQL, and build full-stack features when a project needs them.",
+      "paragraph_1": "I'm a Computer Science student at Universitas Negeri Malang and a Software Engineer at Intervyou.me, where I help build an AI interview platform used by 4,800+ people. I focus on backend development with NestJS, Node.js, and PostgreSQL, and build full-stack features when a project needs them.",
       "paragraph_2": "I enjoy turning complex problems into clean, maintainable solutions, whether that's a scalable REST API, an AI-integrated service, or a polished front-end experience.",
       "read_more": "More about me",
       "stat_years": "Years Experience",
@@ -20,7 +20,7 @@
     },
     "featured_projects": {
       "label": "Selected Work",
-      "heading": "Featured Projects",
+      "heading": "Products I've Shipped",
       "cta": "See all projects"
     },
     "tech_stack": {
@@ -28,16 +28,16 @@
       "heading": "Tools I Work With"
     },
     "contact_cta": {
-      "heading": "Let's Work Together",
-      "subtext": "I'm open to collaborations, freelance work, and full-time roles. Let's build something together.",
-      "cta": "Send me a message"
+      "heading": "Have a Project in Mind?",
+      "subtext": "Whether it's a backend that needs to scale, an AI feature, or a full product from scratch, I'd love to hear about it.",
+      "cta": "Start a Conversation"
     },
     "error": "An error occurred on the server.",
     "no_data": "No data available."
   },
   "AboutPage": {
     "title": "About",
-    "description": "A backend engineer with full-stack range. Here's my experience, skills, and academic background.",
+    "description": "Backend engineer with full-stack range, already shipping AI products used by thousands. Here's the experience, skills, and background behind the work.",
     "bio": {
       "label": "Introduction",
       "heading": "About Me",
@@ -79,7 +79,7 @@
   },
   "ProjectsPage": {
     "title": "Projects",
-    "description": "A selection of full-stack, front-end, and backend projects I've built.",
+    "description": "Real products I've designed, built, and shipped, across full-stack, front-end, and backend.",
     "filter_all": "All",
     "filter_fullstack": "Full-Stack",
     "filter_frontend": "Frontend",
@@ -106,7 +106,7 @@
   },
   "ContactPage": {
     "title": "Contact",
-    "description": "Let's get in touch. I'm always open to new opportunities and collaborations.",
+    "description": "Let's talk. I'm open to new roles, freelance work, and collaborations.",
     "info": {
       "label": "Contact Info",
       "heading": "Get in Touch",

@@ -1,7 +1,7 @@
 export const METADATA = {
   creator: "Ahmad Reza Adrian",
   description:
-    "Personal portfolio of Ahmad Reza Adrian, Backend Engineer and Full-Stack Developer.",
+    "Ahmad Reza Adrian, a backend engineer building scalable APIs and AI-integrated products used by thousands. Backend, full-stack, and cloud-native work.",
   keyword:
     "ahmad reza adrian, reza adrian, backend engineer, full-stack developer, web developer, nestjs, next.js, react, portfolio",
   authors: {

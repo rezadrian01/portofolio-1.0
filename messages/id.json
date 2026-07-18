@@ -9,7 +9,7 @@
     "about_snippet": {
       "label": "Tentang Saya",
       "heading": "Siapa Saya",
-      "paragraph_1": "Saya mahasiswa Teknik Informatika di Universitas Negeri Malang dan Software Engineer di Intervyou.me. Saya berfokus pada pengembangan backend dengan NestJS, Node.js, dan PostgreSQL, serta membangun fitur full-stack saat dibutuhkan.",
+      "paragraph_1": "Saya mahasiswa Teknik Informatika di Universitas Negeri Malang dan Software Engineer di Intervyou.me, tempat saya turut membangun platform wawancara berbasis AI yang digunakan 4.800+ orang. Saya berfokus pada pengembangan backend dengan NestJS, Node.js, dan PostgreSQL, serta membangun fitur full-stack saat dibutuhkan.",
       "paragraph_2": "Saya senang mengubah masalah kompleks menjadi solusi yang bersih dan mudah dipelihara, baik itu REST API yang skalabel, layanan terintegrasi AI, maupun antarmuka frontend yang rapi.",
       "read_more": "Lebih lanjut",
       "stat_years": "Tahun Pengalaman",
@@ -20,7 +20,7 @@
     },
     "featured_projects": {
       "label": "Karya Pilihan",
-      "heading": "Proyek Unggulan",
+      "heading": "Produk yang Telah Saya Rilis",
       "cta": "Lihat semua proyek"
     },
     "tech_stack": {
@@ -28,16 +28,16 @@
       "heading": "Teknologi yang Saya Gunakan"
     },
     "contact_cta": {
-      "heading": "Mari Bekerja Sama",
-      "subtext": "Saya terbuka untuk kolaborasi, proyek freelance, dan peran full-time. Mari membangun sesuatu bersama.",
-      "cta": "Kirim pesan"
+      "heading": "Punya Proyek dalam Pikiran?",
+      "subtext": "Entah itu backend yang perlu diskalakan, fitur AI, atau produk lengkap dari nol, saya senang mendengarnya.",
+      "cta": "Mulai Percakapan"
     },
     "error": "Terjadi kesalahan pada server.",
     "no_data": "Tidak ada data tersedia."
   },
   "AboutPage": {
     "title": "Tentang",
-    "description": "Backend engineer dengan kemampuan full-stack. Inilah pengalaman, keahlian, dan latar belakang pendidikan saya.",
+    "description": "Backend engineer dengan kemampuan full-stack yang sudah merilis produk AI untuk ribuan pengguna. Inilah pengalaman, keahlian, dan latar belakang di balik karyanya.",
     "bio": {
       "label": "Perkenalan",
       "heading": "Tentang Saya",
@@ -79,7 +79,7 @@
   },
   "ProjectsPage": {
     "title": "Proyek",
-    "description": "Kumpulan proyek full-stack, front-end, dan backend yang telah saya buat.",
+    "description": "Produk nyata yang saya rancang, bangun, dan rilis, mencakup full-stack, front-end, dan backend.",
     "filter_all": "Semua",
     "filter_fullstack": "Full-Stack",
     "filter_frontend": "Frontend",
@@ -106,7 +106,7 @@
   },
   "ContactPage": {
     "title": "Kontak",
-    "description": "Mari terhubung. Saya selalu terbuka untuk peluang dan kolaborasi baru.",
+    "description": "Mari mengobrol. Saya terbuka untuk peran baru, pekerjaan freelance, dan kolaborasi.",
     "info": {
       "label": "Info Kontak",
       "heading": "Hubungi Saya",
