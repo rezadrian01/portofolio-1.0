@@ -3,7 +3,7 @@ import { EducationProps } from "../types/education";
 export const EDUCATION: EducationProps[] = [
   {
     school: "Universitas Negeri Malang",
-    major: "Informatics Engineering",
+    major: "Computer Science",
     logo: "/images/education/um.png",
     location: "Malang, East Java, Indonesia",
     degree: "Bachelor's degree",

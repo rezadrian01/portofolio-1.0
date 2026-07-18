@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
@@ -12,6 +11,7 @@ import {
 } from "react-icons/bs";
 
 import RotatingText from "@/common/components/elements/RotatingText";
+import { Link } from "@/i18n/navigation";
 import { PERSONAL } from "@/common/constants/personal";
 
 const HeroSection = () => {

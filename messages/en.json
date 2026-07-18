@@ -2,15 +2,15 @@
   "HomePage": {
     "hero": {
       "greeting": "Hi, I'm",
-      "tagline": "Building scalable APIs and full-stack web applications — with a growing focus on system design and cloud-native services.",
+      "tagline": "I build scalable APIs and full-stack web apps, with a growing focus on system design and cloud-native services.",
       "cta_projects": "View Projects",
       "cta_cv": "Download CV"
     },
     "about_snippet": {
       "label": "About Me",
       "heading": "Who I Am",
-      "paragraph_1": "I'm an Informatics Engineering student at Universitas Negeri Malang and Software Engineer at Intervyou.me. I specialize in backend development with NestJS, Node.js, and PostgreSQL — and build full-stack features when needed.",
-      "paragraph_2": "I love turning complex problems into clean, maintainable solutions — whether that's a scalable REST API, an AI-integrated service, or a polished front-end experience.",
+      "paragraph_1": "I'm a Computer Science student at Universitas Negeri Malang and a Software Engineer at Intervyou.me, where I help build an AI interview platform used by 4,800+ people. I focus on backend development with NestJS, Node.js, and PostgreSQL, and build full-stack features when a project needs them.",
+      "paragraph_2": "I enjoy turning complex problems into clean, maintainable solutions, whether that's a scalable REST API, an AI-integrated service, or a polished front-end experience.",
       "read_more": "More about me",
       "stat_years": "Years Experience",
       "stat_projects": "Projects Built",
@@ -20,7 +20,7 @@
     },
     "featured_projects": {
       "label": "Selected Work",
-      "heading": "Featured Projects",
+      "heading": "Products I've Shipped",
       "cta": "See all projects"
     },
     "tech_stack": {
@@ -28,22 +28,22 @@
       "heading": "Tools I Work With"
     },
     "contact_cta": {
-      "heading": "Let's Work Together",
-      "subtext": "Open to collaborations, freelance projects, and full-time opportunities. Feel free to reach out!",
-      "cta": "Send me a message"
+      "heading": "Have a Project in Mind?",
+      "subtext": "Whether it's a backend that needs to scale, an AI feature, or a full product from scratch, I'd love to hear about it.",
+      "cta": "Start a Conversation"
     },
     "error": "An error occurred on the server.",
     "no_data": "No data available."
   },
   "AboutPage": {
     "title": "About",
-    "description": "Backend engineer with full-stack capabilities — my experience, skills, and educational background.",
+    "description": "Backend engineer with full-stack range, already shipping AI products used by thousands. Here's the experience, skills, and background behind the work.",
     "bio": {
       "label": "Introduction",
       "heading": "About Me",
-      "paragraph_1": "I'm Ahmad Reza Adrian, an Informatics Engineering student at Universitas Negeri Malang. I work as a Software Engineer at Intervyou.me, building AI-integrated backend services and full-stack features for real users.",
-      "paragraph_2": "My core strength is backend engineering — designing RESTful APIs, working with databases like PostgreSQL and MongoDB, and integrating AI capabilities using the Google Gemini API. I also build front-end experiences with Next.js and React when the project calls for it.",
-      "paragraph_3": "I believe well-structured code and clear system design are as important as shipping features. I'm always exploring new approaches — currently interested in system design and cloud-native development.",
+      "paragraph_1": "I'm Ahmad Reza Adrian, a Computer Science student at Universitas Negeri Malang and a Software Engineer at Intervyou.me, where I build AI-integrated backend services and full-stack features used by real people.",
+      "paragraph_2": "My core strength is backend engineering: designing RESTful APIs, modeling data with PostgreSQL and MongoDB, and integrating AI through the Google Gemini API. When a project calls for it, I also build front-end experiences with Next.js and React.",
+      "paragraph_3": "I believe clean, well-structured code and clear system design matter as much as shipping features. Right now I'm focused on deepening my system design and cloud-native skills.",
       "download_cv": "Download CV"
     },
     "experience": {
@@ -65,9 +65,9 @@
       "no_data": "No certificates data available."
     },
     "resume": {
-      "paragraph_1": "I'm Ahmad Reza Adrian, an Informatics Engineering student at Universitas Negeri Malang. I work as a Software Engineer at Intervyou.me, building AI-integrated backend services and full-stack features for real users.",
-      "paragraph_2": "My core strength is backend engineering — designing RESTful APIs, working with databases like PostgreSQL and MongoDB, and integrating AI capabilities using the Google Gemini API. I also build front-end experiences with Next.js and React when the project calls for it.",
-      "paragraph_3": "I believe well-structured code and clear system design are as important as shipping features. I'm always exploring new approaches — currently interested in system design and cloud-native development.",
+      "paragraph_1": "I'm Ahmad Reza Adrian, a Computer Science student at Universitas Negeri Malang and a Software Engineer at Intervyou.me, where I build AI-integrated backend services and full-stack features used by real people.",
+      "paragraph_2": "My core strength is backend engineering: designing RESTful APIs, modeling data with PostgreSQL and MongoDB, and integrating AI through the Google Gemini API. When a project calls for it, I also build front-end experiences with Next.js and React.",
+      "paragraph_3": "I believe clean, well-structured code and clear system design matter as much as shipping features. Right now I'm focused on deepening my system design and cloud-native skills.",
       "paragraph_4": "I'm open to new opportunities where I can contribute to impactful products and continue growing as an engineer."
     },
     "career": {
@@ -79,7 +79,7 @@
   },
   "ProjectsPage": {
     "title": "Projects",
-    "description": "A showcase of my full-stack, frontend, and backend projects.",
+    "description": "Real products I've designed, built, and shipped, across full-stack, front-end, and backend.",
     "filter_all": "All",
     "filter_fullstack": "Full-Stack",
     "filter_frontend": "Frontend",
@@ -89,6 +89,7 @@
     "back_button": "Back",
     "source_code_text": "Source Code",
     "live_demo_text": "Live Demo",
+    "close": "Close",
     "error": "An error occurred on the server.",
     "no_data": "No projects available."
   },
@@ -105,11 +106,11 @@
   },
   "ContactPage": {
     "title": "Contact",
-    "description": "Let's get in touch. I'm always open to new opportunities and collaborations.",
+    "description": "Let's talk. I'm open to new roles, freelance work, and collaborations.",
     "info": {
       "label": "Contact Info",
       "heading": "Get in Touch",
-      "subtext": "Whether you have a project in mind, want to collaborate, or just want to say hi — my inbox is always open."
+      "subtext": "Whether you have a project in mind, want to collaborate, or just want to say hi, my inbox is always open."
     },
     "form": {
       "title": "Send Me a Message",

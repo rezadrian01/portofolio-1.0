@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
 
+import { Link } from "@/i18n/navigation";
 import { PERSONAL } from "@/common/constants/personal";
 
 const ContactCTASection = () => {

@@ -1,15 +1,20 @@
-import Link from "next/link";
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { BsGithub, BsBoxArrowUpRight, BsArrowRight } from "react-icons/bs";
 
 import SectionHeading from "@/common/components/elements/SectionHeading";
 import SpotlightCard from "@/common/components/elements/SpotlightCard";
+import ProjectModal from "@/common/components/elements/ProjectModal";
+import { Link } from "@/i18n/navigation";
 import { PROJECTS, type ProjectEntry } from "@/common/constants/projects";
 
 const FeaturedProjectsSection = () => {
   const t = useTranslations("HomePage.featured_projects");
   const featuredProjects = PROJECTS.filter((p) => p.featured).slice(0, 3);
+  const [selected, setSelected] = useState<ProjectEntry | null>(null);
 
   return (
     <section className="py-20" data-aos="fade-up">
@@ -22,9 +27,21 @@ const FeaturedProjectsSection = () => {
 
       <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {featuredProjects.map((project) => (
-          <SpotlightCard
+          <div
             key={project.slug}
-            className="flex flex-col"
+            onClick={() => setSelected(project)}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                setSelected(project);
+              }
+            }}
+            className="cursor-pointer"
+          >
+          <SpotlightCard
+            className="flex h-full flex-col"
             spotlightColor="rgba(251, 228, 0, 0.12)"
           >
             {/* Thumbnail */}
@@ -76,6 +93,7 @@ const FeaturedProjectsSection = () => {
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
                     className="text-neutral-500 transition-colors hover:text-primary dark:text-neutral-400"
                     aria-label="Source code"
                   >
@@ -87,6 +105,7 @@ const FeaturedProjectsSection = () => {
                     href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
                     className="text-neutral-500 transition-colors hover:text-primary dark:text-neutral-400"
                     aria-label="Live demo"
                   >
@@ -96,6 +115,7 @@ const FeaturedProjectsSection = () => {
               </div>
             </div>
           </SpotlightCard>
+          </div>
         ))}
       </div>
 
@@ -107,6 +127,8 @@ const FeaturedProjectsSection = () => {
           {t("cta")} <BsArrowRight size={14} />
         </Link>
       </div>
+
+      <ProjectModal project={selected} onClose={() => setSelected(null)} />
     </section>
   );
 };

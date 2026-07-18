@@ -2,15 +2,15 @@
   "HomePage": {
     "hero": {
       "greeting": "Halo, saya",
-      "tagline": "Membangun API yang skalabel dan aplikasi web full-stack — dengan fokus yang terus berkembang pada desain sistem dan layanan cloud-native.",
+      "tagline": "Saya membangun API yang skalabel dan aplikasi web full-stack, sambil terus mendalami desain sistem dan layanan cloud-native.",
       "cta_projects": "Lihat Proyek",
       "cta_cv": "Unduh CV"
     },
     "about_snippet": {
       "label": "Tentang Saya",
       "heading": "Siapa Saya",
-      "paragraph_1": "Saya mahasiswa Teknik Informatika di Universitas Negeri Malang dan Software Engineer di Intervyou.me. Saya mengkhususkan diri dalam pengembangan backend dengan NestJS, Node.js, dan PostgreSQL — serta membangun fitur full-stack saat diperlukan.",
-      "paragraph_2": "Saya suka mengubah masalah kompleks menjadi solusi yang bersih dan mudah dipelihara — baik itu REST API yang skalabel, layanan terintegrasi AI, maupun antarmuka frontend yang halus.",
+      "paragraph_1": "Saya mahasiswa Teknik Informatika di Universitas Negeri Malang sekaligus Software Engineer di Intervyou.me, tempat saya ikut membangun platform wawancara berbasis AI yang kini dipakai lebih dari 4.800 orang. Saya paling nyaman bekerja di sisi backend dengan NestJS, Node.js, dan PostgreSQL, dan siap turun ke full-stack saat proyek memerlukannya.",
+      "paragraph_2": "Bagi saya, bagian paling menarik adalah mengubah masalah yang rumit menjadi solusi yang rapi dan mudah dirawat, entah itu REST API yang skalabel, layanan berbasis AI, atau tampilan frontend yang nyaman digunakan.",
       "read_more": "Lebih lanjut",
       "stat_years": "Tahun Pengalaman",
       "stat_projects": "Proyek Dibuat",
@@ -20,7 +20,7 @@
     },
     "featured_projects": {
       "label": "Karya Pilihan",
-      "heading": "Proyek Unggulan",
+      "heading": "Produk yang Telah Saya Rilis",
       "cta": "Lihat semua proyek"
     },
     "tech_stack": {
@@ -28,22 +28,22 @@
       "heading": "Teknologi yang Saya Gunakan"
     },
     "contact_cta": {
-      "heading": "Mari Bekerja Sama",
-      "subtext": "Terbuka untuk kolaborasi, proyek freelance, dan kesempatan kerja penuh waktu. Jangan ragu untuk menghubungi saya!",
-      "cta": "Kirim pesan"
+      "heading": "Punya Ide Proyek?",
+      "subtext": "Entah itu backend yang perlu di-scale, fitur berbasis AI, atau produk baru dari nol, saya senang mendengar idenya.",
+      "cta": "Ngobrol Yuk"
     },
     "error": "Terjadi kesalahan pada server.",
     "no_data": "Tidak ada data tersedia."
   },
   "AboutPage": {
     "title": "Tentang",
-    "description": "Backend engineer dengan kemampuan full-stack — pengalaman, keahlian, dan latar belakang pendidikan saya.",
+    "description": "Backend engineer dengan kemampuan full-stack yang produknya sudah dipakai ribuan pengguna. Di sini saya ceritakan pengalaman, keahlian, dan latar belakang di baliknya.",
     "bio": {
       "label": "Perkenalan",
       "heading": "Tentang Saya",
-      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang. Saya bekerja sebagai Software Engineer di Intervyou.me, membangun layanan backend terintegrasi AI dan fitur full-stack untuk pengguna nyata.",
-      "paragraph_2": "Kekuatan utama saya adalah backend engineering — merancang RESTful API, bekerja dengan database seperti PostgreSQL dan MongoDB, serta mengintegrasikan kemampuan AI menggunakan Google Gemini API. Saya juga membangun pengalaman frontend dengan Next.js dan React saat proyek membutuhkannya.",
-      "paragraph_3": "Saya percaya bahwa kode yang terstruktur dengan baik dan desain sistem yang jelas sama pentingnya dengan pengiriman fitur. Saya terus mengeksplorasi pendekatan baru — saat ini tertarik pada desain sistem dan pengembangan cloud-native.",
+      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang sekaligus Software Engineer di Intervyou.me. Di sana saya membangun layanan backend berbasis AI dan fitur full-stack yang benar-benar dipakai pengguna.",
+      "paragraph_2": "Kekuatan terbesar saya ada di backend engineering: merancang RESTful API, menata data di PostgreSQL dan MongoDB, dan mengintegrasikan AI lewat Google Gemini API. Kalau proyek memerlukannya, saya juga menggarap frontend dengan Next.js dan React.",
+      "paragraph_3": "Buat saya, kode yang bersih dan rapi serta desain sistem yang jelas sama pentingnya dengan merilis fitur dengan cepat. Belakangan ini saya sedang fokus mendalami desain sistem dan pengembangan cloud-native.",
       "download_cv": "Unduh CV"
     },
     "experience": {
@@ -65,10 +65,10 @@
       "no_data": "Belum ada data sertifikat."
     },
     "resume": {
-      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang. Saya bekerja sebagai Software Engineer di Intervyou.me, membangun layanan backend terintegrasi AI dan fitur full-stack untuk pengguna nyata.",
-      "paragraph_2": "Kekuatan utama saya adalah backend engineering — merancang RESTful API, bekerja dengan database seperti PostgreSQL dan MongoDB, serta mengintegrasikan kemampuan AI menggunakan Google Gemini API. Saya juga membangun pengalaman frontend dengan Next.js dan React saat proyek membutuhkannya.",
-      "paragraph_3": "Saya percaya bahwa kode yang terstruktur dengan baik dan desain sistem yang jelas sama pentingnya dengan pengiriman fitur. Saya terus mengeksplorasi pendekatan baru — saat ini tertarik pada desain sistem dan pengembangan cloud-native.",
-      "paragraph_4": "Saya terbuka untuk peluang baru di mana saya dapat berkontribusi pada produk yang berdampak dan terus berkembang sebagai engineer."
+      "paragraph_1": "Saya Ahmad Reza Adrian, mahasiswa Teknik Informatika di Universitas Negeri Malang sekaligus Software Engineer di Intervyou.me. Di sana saya membangun layanan backend berbasis AI dan fitur full-stack yang benar-benar dipakai pengguna.",
+      "paragraph_2": "Kekuatan terbesar saya ada di backend engineering: merancang RESTful API, menata data di PostgreSQL dan MongoDB, dan mengintegrasikan AI lewat Google Gemini API. Kalau proyek memerlukannya, saya juga menggarap frontend dengan Next.js dan React.",
+      "paragraph_3": "Buat saya, kode yang bersih dan rapi serta desain sistem yang jelas sama pentingnya dengan merilis fitur dengan cepat. Belakangan ini saya sedang fokus mendalami desain sistem dan pengembangan cloud-native.",
+      "paragraph_4": "Saya terbuka untuk peluang baru, tempat saya bisa ikut membangun produk yang berdampak sambil terus berkembang sebagai engineer."
     },
     "career": {
       "title": "Pengalaman Kerja",
@@ -79,7 +79,7 @@
   },
   "ProjectsPage": {
     "title": "Proyek",
-    "description": "Kumpulan proyek full-stack, frontend, dan backend saya.",
+    "description": "Produk nyata yang saya rancang, bangun, dan rilis sendiri, mulai dari full-stack, front-end, sampai backend.",
     "filter_all": "Semua",
     "filter_fullstack": "Full-Stack",
     "filter_frontend": "Frontend",
@@ -89,6 +89,7 @@
     "back_button": "Kembali",
     "source_code_text": "Kode Sumber",
     "live_demo_text": "Demo Langsung",
+    "close": "Tutup",
     "error": "Terjadi kesalahan pada server.",
     "no_data": "Tidak ada proyek tersedia."
   },
@@ -105,11 +106,11 @@
   },
   "ContactPage": {
     "title": "Kontak",
-    "description": "Mari terhubung. Saya selalu terbuka untuk peluang dan kolaborasi baru.",
+    "description": "Mari ngobrol. Saya terbuka untuk peran baru, kerja freelance, maupun kolaborasi.",
     "info": {
       "label": "Info Kontak",
       "heading": "Hubungi Saya",
-      "subtext": "Apakah Anda punya proyek yang ingin dikerjakan, ingin berkolaborasi, atau sekadar menyapa — kotak masuk saya selalu terbuka."
+      "subtext": "Mau membahas proyek, mengajak kolaborasi, atau sekadar menyapa, pintu saya selalu terbuka."
     },
     "form": {
       "title": "Kirim Pesan",
@@ -127,19 +128,19 @@
       "title": "Temukan saya di",
       "gmail": {
         "title": "Tetap Terhubung",
-        "description": "Hubungi saya melalui email untuk pertanyaan atau kolaborasi."
+        "description": "Kirim email untuk pertanyaan atau ajakan kolaborasi."
       },
       "instagram": {
         "title": "Ikuti Perjalanan Saya",
-        "description": "Tetap update dengan postingan dan story terbaru saya di Instagram."
+        "description": "Ikuti postingan dan story terbaru saya di Instagram."
       },
       "linkedin": {
         "title": "Mari Terhubung",
-        "description": "Terhubung untuk kolaborasi atau jelajahi pengalaman profesional saya."
+        "description": "Terhubung untuk kolaborasi atau lihat pengalaman profesional saya."
       },
       "github": {
         "title": "Jelajahi Kode",
-        "description": "Jelajahi kode sumber untuk semua proyek saya di GitHub."
+        "description": "Lihat kode sumber semua proyek saya di GitHub."
       },
       "facebook": {
         "title": "Tambahkan Saya di Facebook",
@@ -164,6 +165,6 @@
   },
   "NotFoundPage": {
     "title": "Halaman tidak ditemukan",
-    "button": "Bawa saya ke beranda"
+    "button": "Kembali ke beranda"
   }
 }

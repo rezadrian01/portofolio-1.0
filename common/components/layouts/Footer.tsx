@@ -1,5 +1,6 @@
-import Link from "next/link";
 import { useTranslations } from "next-intl";
+
+import { Link } from "@/i18n/navigation";
 import { BsGithub, BsInstagram, BsLinkedin, BsFacebook } from "react-icons/bs";
 
 import { MENU_ITEMS } from "@/common/constants/menu";

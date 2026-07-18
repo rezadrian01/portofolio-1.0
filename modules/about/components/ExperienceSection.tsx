@@ -71,7 +71,7 @@ const ExperienceSection = () => {
                     </div>
                     <div className="text-left sm:text-right text-xs text-neutral-500 dark:text-neutral-400">
                       <div>
-                        {start} — {end}
+                        {start} - {end}
                       </div>
                       <span className="mt-0.5 inline-block rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-medium text-primary">
                         {item.type}

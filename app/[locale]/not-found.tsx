@@ -1,7 +1,7 @@
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 import Container from "@/common/components/elements/Container";
+import { Link } from "@/i18n/navigation";
 
 const NotFound = () => {
   const t = useTranslations("NotFoundPage");

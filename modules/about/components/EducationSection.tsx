@@ -56,7 +56,7 @@ const EducationSection = () => {
                 </p>
                 <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-0.5 text-xs text-neutral-500 dark:text-neutral-500">
                   <span>
-                    {item.start_year} — {item.end_year}
+                    {item.start_year} - {item.end_year}
                   </span>
                   <span>{item.location}</span>
                   {item.GPA && <span>GPA: {item.GPA}</span>}

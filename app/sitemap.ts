@@ -1,5 +1,4 @@
 import { MetadataRoute } from "next";
-import { PROJECTS } from "@/common/constants/projects";
 
 const BASE_URL = "https://www.rezadrian.my.id";
 const LOCALES = ["en", "id"];
@@ -16,15 +15,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: route === "/" ? "weekly" : "monthly",
         priority: route === "/" ? 1 : 0.8,
-      });
-    }
-
-    for (const project of PROJECTS) {
-      entries.push({
-        url: `${BASE_URL}/${locale}/projects/${project.slug}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
-        priority: 0.6,
       });
     }
   }

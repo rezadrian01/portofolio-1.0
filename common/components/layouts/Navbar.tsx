@@ -1,12 +1,12 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { useTranslations } from "next-intl";
 
+import { Link } from "@/i18n/navigation";
 import { MENU_ITEMS } from "@/common/constants/menu";
 import { PERSONAL } from "@/common/constants/personal";
 import ThemeSwitcher from "../elements/ThemeSwitcher";
