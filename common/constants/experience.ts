@@ -12,19 +12,6 @@ export interface ExperienceItem {
 
 export const EXPERIENCE: ExperienceItem[] = [
   {
-    title: "Application Security Intern",
-    company: "PT PLN (Persero)",
-    location: "Jakarta, Indonesia",
-    type: "Internship",
-    startDate: "2026-03",
-    endDate: "2026-06",
-    description: [
-      "Performed security assessments and vulnerability testing on internal web applications.",
-      "Assisted in implementing security controls and documenting findings for the security team.",
-    ],
-    isShow: true,
-  },
-  {
     title: "Software Engineer",
     company: "Intervyou.me · PT Intervyou Labs Indonesia",
     companyUrl: "https://intervyou.me",
@@ -36,6 +23,19 @@ export const EXPERIENCE: ExperienceItem[] = [
       "Building and maintaining the AI-powered interview preparation platform backend using NestJS and TypeScript.",
       "Designed RESTful APIs, integrated AI services, and contributed to frontend features with Next.js.",
       "Collaborated closely with product and design teams to ship user-facing features in iterative sprints.",
+    ],
+    isShow: true,
+  },
+  {
+    title: "Application Security Intern",
+    company: "PT PLN (Persero)",
+    location: "Jakarta, Indonesia",
+    type: "Internship",
+    startDate: "2026-03",
+    endDate: "2026-06",
+    description: [
+      "Performed security assessments and vulnerability testing on internal web applications.",
+      "Assisted in implementing security controls and documenting findings for the security team.",
     ],
     isShow: true,
   },
@@ -53,7 +53,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     isShow: true,
   },
   {
-    title: "Teaching Assistant — Information Systems",
+    title: "Teaching Assistant, Information Systems",
     company: "Universitas Negeri Malang",
     companyUrl: "https://um.ac.id",
     location: "Malang, East Java, Indonesia",
@@ -67,7 +67,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     isShow: true,
   },
   {
-    title: "Teaching Assistant — Database Systems",
+    title: "Teaching Assistant, Database Systems",
     company: "Universitas Negeri Malang",
     companyUrl: "https://um.ac.id",
     location: "Malang, East Java, Indonesia",
